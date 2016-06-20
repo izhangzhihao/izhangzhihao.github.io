@@ -1,0 +1,50 @@
+
+## 打开 \.git\config
+
+## 内容如下：
+
+```
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "origin"]
+	url = https://github.com/izhangzhihao/SpringMVCSeedProject.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+```
+
+
+## 我们只需要再添加一个remote节点和branch节点就可以实现一次推送将更改同步到两个仓库，最后更改好的配置如下：
+
+
+
+```
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "origin"]
+	url = https://github.com/izhangzhihao/SpringMVCSeedProject.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "GitLab"]
+	url = http://10.16.155.241:2333/git/SpringMVCSeedProject.git
+	fetch = +refs/heads/*:refs/remotes/GitLab/*
+[branch "master"]
+	remote = GitLab
+	merge = refs/heads/master
+
+```
