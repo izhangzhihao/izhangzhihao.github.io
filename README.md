@@ -13,3 +13,4 @@
 ## 2016年七月
 
 * [使用LogBack将日志记录到MySql数据库](https://github.com/izhangzhihao/Blog/blob/master/201607/使用LogBack将日志记录到MySql数据库.md)
+* [解决Gradle长时间卡在Build的问题](https://github.com/izhangzhihao/Blog/blob/master/201607/解决Gradle长时间卡在Build的问题.md)
