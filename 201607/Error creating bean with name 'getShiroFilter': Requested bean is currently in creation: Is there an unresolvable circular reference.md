@@ -51,7 +51,6 @@ public class ShiroRealm extends AuthorizingRealm {
 
     ...
 
-    @Bean
     public ShiroRealm getShiroRealm() {
         //return new ShiroRealm();
         ShiroRealm shiroRealm=new ShiroRealm();
