@@ -9,6 +9,10 @@
 
 build.gradle中加入Lombok依赖 "org.projectlombok:lombok:1.16.10",
 
+# 第三步：
+
+修改设置：Setting - Compiler - Annotation Processors - Enable annotation processing.
+
 # 然后就可以了愉快的使用啦
 
 # Lombok官网 https://projectlombok.org
