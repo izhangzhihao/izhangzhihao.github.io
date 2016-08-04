@@ -17,3 +17,4 @@
 * [解决Error creating bean with name 'getShiroFilter': Requested bean is currently in creation: Is there an unresolvable circular reference](https://github.com/izhangzhihao/Blog/blob/master/201607/Error creating bean with name 'getShiroFilter': Requested bean is currently in creation: Is there an unresolvable circular reference.md)
 * [MySql中文乱码解决](https://github.com/izhangzhihao/Blog/blob/master/201607/MySql中文乱码解决.md)
 * [使用Lombok注解](https://github.com/izhangzhihao/Blog/blob/master/201607/使用Lombok注解.md)
+* [解决Travis 使用gradlew时的权限问题](https://github.com/izhangzhihao/Blog/blob/master/201607/解决Travis 使用gradlew时的权限问题.md)
