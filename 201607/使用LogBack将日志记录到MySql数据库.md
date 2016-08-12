@@ -154,3 +154,6 @@ root(WARN, ["stdOut"])
 
 ```
 ---
+
+# 如果使用了Hibernate并且做了映射的话，第一步中最好将 `timestmp` LONG NOT NULL, 改为 `timestmp` mediumtext NOT NULL,
+映射可以这么写 @Column(columnDefinition="MEDIUMTEXT") private String timestmp;
