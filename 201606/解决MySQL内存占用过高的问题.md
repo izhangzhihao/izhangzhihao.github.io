@@ -1,1 +1,0 @@
-# 关闭 Performance Schema ， MySQL 配置文件的   [mysqld] 字段添加一句  performance_schema = off

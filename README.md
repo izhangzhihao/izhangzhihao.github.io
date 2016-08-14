@@ -1,20 +1,44 @@
-# Blog
-我的博客随笔
+# MyWay
 
-## 2016年六月
+我的个人博客：<https://izhangzhihao.github.io/>，欢迎 Star 和 Fork。
 
-* [将提交同时推送到两个Git仓库](https://github.com/izhangzhihao/Blog/blob/master/201606/将提交同时推送到两个Git仓库.md)
-* [封装单元测试的重复代码](https://github.com/izhangzhihao/Blog/blob/master/201606/封装单元测试的重复代码.md)
-* [.Net项目使用持续集成服务AppVeyor，Travis CI实战](https://github.com/izhangzhihao/Blog/blob/master/201606/.Net项目使用持续集成服务AppVeyor，Travis CI实战.md)
-* [解决this is incompatible with sql_mode=only_full_group_by](https://github.com/izhangzhihao/Blog/blob/master/201606/解决this is incompatible with sql_mode=only_full_group_by.md)
-* [解决MySQL内存占用过高的问题](https://github.com/izhangzhihao/Blog/blob/master/201606/解决MySQL内存占用过高的问题.md)
-* [Hibernate笔记.docx](https://github.com/izhangzhihao/Blog/blob/master/201606/Hibernate笔记.docx)
+## 概览
 
-## 2016年七月
+* [效果预览](#效果预览)
+* [Fork 指南](#fork-指南)
 
-* [使用LogBack将日志记录到MySql数据库](https://github.com/izhangzhihao/Blog/blob/master/201607/使用LogBack将日志记录到MySql数据库.md)
-* [解决Gradle长时间卡在Build的问题](https://github.com/izhangzhihao/Blog/blob/master/201607/解决Gradle长时间卡在Build的问题.md)
-* [解决Error creating bean with name 'getShiroFilter': Requested bean is currently in creation: Is there an unresolvable circular reference](https://github.com/izhangzhihao/Blog/blob/master/201607/Error creating bean with name 'getShiroFilter': Requested bean is currently in creation: Is there an unresolvable circular reference.md)
-* [MySql中文乱码解决](https://github.com/izhangzhihao/Blog/blob/master/201607/MySql中文乱码解决.md)
-* [使用Lombok注解](https://github.com/izhangzhihao/Blog/blob/master/201607/使用Lombok注解.md)
-* [解决Travis 使用gradlew时的权限问题](https://github.com/izhangzhihao/Blog/blob/master/201607/解决Travis 使用gradlew时的权限问题.md)
+## 效果预览
+
+### [在线预览 &rarr;](https://izhangzhihao.github.io/)
+
+## Fork 指南
+
+Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
+
+1. 正确设置项目名称与分支。
+
+   按照 GitHub Pages 的规定，名称为 `username.github.io` 的项目的 master 分支，或者其它名称的项目的 gh-pages 分支可以自动生成 GitHub Pages 页面。
+
+2. 修改域名。
+
+   如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。
+
+3. 修改配置。
+
+   网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 title、subtitle、duoshuo 和 Disqus 的用户名等。
+
+   **注意：** 因为 Disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus\_username 修改成你自己的。我对该缺陷的记录见 [Issues#2][3]。
+
+4. 删除我的文章与图片。
+
+   如下文件夹中除了 template.md 文件外，都可以全部删除，然后添加你自己的内容。
+
+   * \_posts 文件夹中是我已发布的博客文章。
+   * \_drafts 文件夹中是我尚未发布的博客文章。
+   * \_wiki 文件夹中是我已发布的 wiki 页面。
+   * images 文件夹中是我的文章和页面里使用的图片。
+
+5. 修改「关于」页面。
+
+   pages/about.md 文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息。
+
