@@ -19,7 +19,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: 张志豪
 organization: 华北理工大学
-# organization_url: https://www.sogou.com
+# organization_url: 
 location: Tangshan, China
 email: izhangzhihao@hotmail.com
 
@@ -34,6 +34,10 @@ navs:
   -
     href: /categories/
     label: 分类
+
+  -
+    href: /MySkillTree/
+    label: 我的技能树
 
   -
     href: /about/
@@ -97,5 +101,5 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_language_keywords: [Java, C Sharp]
+skill_language_keywords: [Java, Scala , C Sharp]
 skill_web_app_keywords: [javaEE, Spring ,Spring MVC ,Hibernate, Shiro ,Redis ,Spring Data ,MySql ,JPA ,ASP.NET ,ASP.NET MVC,Entity Framework]
