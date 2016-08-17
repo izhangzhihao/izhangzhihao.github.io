@@ -40,32 +40,39 @@ permalink: /MySkillTree/
 3.	多线程，线程安全，死锁，线程池
 4.  parallel     Parallel LINQ (PLINQ)  TPL(Task Parallel Library) 
 5.  反射(.NET ,Java)
-6.  HTTP2.0     ~~SDPY（google已停止开发）~~
+6.  HTTP 1.X / HTTP2.0     ~~SDPY（google已停止开发）~~
+16. HTTP [HTTPS](http://www.cnblogs.com/jfzhu/p/4064035.html)
 7.	Git  gitflow
 8. dotNet 单元测试  msUnit  xUnit  mock
 9. 控制反转 IOC  依赖注入 DI
 10. 面向切面编程 AOP
 10. 日志 Log4Net log4j slf4j logback
+11. Junit
+12. Jacoco
 11. bootstrap
 12. Python Django
 13. Entity Framework On MySQL
 14. 客户端缓存 304 NotModified ; 200 OK(Form Cache) ; Entity Tags ; Last-Modified ; Expires
 15. CDN（了解）
-16. HTTP [HTTPS](http://www.cnblogs.com/jfzhu/p/4064035.html)
 17.	调试工具：MiniProfiler&&Glimpse
 18.	持续集成服务：AppVeyor&&Travis-CI
 19.	TeamCity
 20. Filter (.NET ,Java)
+21. Maven
+22. Gradle
 21. Spring
 22.	SpringMVC
+24. JPA
 23. Hibernate
 24. Shiro
-25. Redis  StackExchange.Redis  Cache 和Session 共享  spring-session
+25. Redis  StackExchange.Redis  Cache 和 Session 共享  spring-session
 26. Jenkins
 
 ## 计划中/在学
 
 1. Scala
+2. SEO
+3. JSONP
 23.	AngularJS
 24.	RequireJS
 25.	react-native（了解）
