@@ -31,7 +31,9 @@ permalink: /MySkillTree/
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
 
-# 已经完成
+# 技能
+
+## 已经完成
 
 1.	单例模式（考虑线程安全）使用lock，
 2.	工厂模式
@@ -60,6 +62,34 @@ permalink: /MySkillTree/
 24. Shiro
 25. Redis  StackExchange.Redis  Cache 和Session 共享  spring-session
 26. Jenkins
+
+## 计划中/在学
+
+1. Scala
+23.	AngularJS
+24.	RequireJS
+25.	react-native（了解）
+1.	NodeJS(了解)
+26.	前端构建工具（gulp,grunt）
+27. 微服务
+1.	ES6+
+2.	TypeScript
+3. Oracle 
+1.	Nginx
+1.	消息队列 ActiveMQ  RabbitMQ Kafka
+1.	MyBatis
+1.	Jedis
+2.	spring-data-redis
+3.	Lucene索引
+4. Guava 
+1.	SSO single sign on 单点登录
+2.	Jsckson
+2. SpringBoot
+3.	Spring-Security
+1.	spring cloud
+2.	Thymeleaf
+4. XSS，CSRF，Session Fixation，中间人攻击
+
 
 
 
