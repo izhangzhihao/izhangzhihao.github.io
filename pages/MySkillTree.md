@@ -73,6 +73,8 @@ permalink: /MySkillTree/
 1. Scala
 2. SEO
 3. JSONP
+4. Oauth
+5. [Gradle多项目构建](https://github.com/someok/gradle-multi-project-example)
 23.	AngularJS
 24.	RequireJS
 25.	react-native（了解）
@@ -94,8 +96,8 @@ permalink: /MySkillTree/
 2. SpringBoot
 3.	Spring-Security
 1.	spring cloud
-2.	Thymeleaf
-4. XSS，CSRF，Session Fixation，中间人攻击
+2.	~~Thymeleaf(性能不好)~~
+4. [XSS，CSRF，Session Fixation，中间人攻击](http://www.cnblogs.com/coco1s/p/5777260.html)
 
 
 
