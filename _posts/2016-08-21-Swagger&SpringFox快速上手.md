@@ -54,6 +54,10 @@ public class SwaggerConfig {
 
 ## 访问html API页面 http://localhost:8080/swagger-ui.html
 
+# 效果：
+
+![image](https://cloud.githubusercontent.com/assets/12044174/17836283/6c64eb84-67bf-11e6-8d22-83a7e6c60456.png)
+
 # SpringMVC Controller 配置：
 
 ---
