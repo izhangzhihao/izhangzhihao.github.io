@@ -54,7 +54,38 @@ public class EhCacheConfig {
 ```
 ---
 
+## XML配置
 
+---
+``` xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:cache="http://www.springframework.org/schema/cache" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/cache
+                            http://www.springframework.org/schema/cache/spring-cache.xsd">
+
+    <!--配置ehcache-->
+    <bean id="ehcache" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"
+          p:shared="true"
+          p:acceptExisting="true"
+          p:configLocation="classpath:ehcache.xml"/>
+
+    <!--配置缓存管理器-->
+    <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager"
+          p:cacheManager-ref="ehcache"/>
+
+    <!--启用缓存注解 注解方式配置@EnableCaching-->
+    <cache:annotation-driven cache-manager="cacheManager"/>
+
+</beans>
+
+
+```
+---
 
 # Redis作为缓存配置 ：
 
@@ -169,6 +200,91 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
 ```
 ---
 
+## XML配置
+
+### Spring-Redis.xml
+
+---
+``` xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress SpringPlaceholdersInspection -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:redis="http://www.springframework.org/schema/redis"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/redis
+		http://www.springframework.org/schema/redis/spring-redis.xsd ">
+
+    <description>Redis配置</description>
+    <!-- 导入资源文件 -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:redis.properties</value>
+            </list>
+        </property>
+        <property name="ignoreUnresolvablePlaceholders" value="true" />
+    </bean>
+
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig"
+          p:maxIdle="${redis.maxIdle}"
+          p:maxTotal="${redis.maxTotal}"
+          p:maxWaitMillis="${redis.maxWaitMillis}"
+          p:testOnBorrow="${redis.testOnBorrow}"/>
+
+    <bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+          p:hostName="${redis.host}"
+          p:port="${redis.port}"
+          p:password="${redis.passWord}"
+          p:timeout="${redis.timeout}"
+          p:database="${redis.database}"
+          p:poolConfig-ref="poolConfig"/>
+
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="valueSerializer" ref="redisSerializer"/>
+        <property name="keySerializer" ref="stringSerializer" />
+        <!--<property name="enableTransactionSupport" value="true" />-->
+    </bean>
+
+    <bean id="stringSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+    <bean id="redisSerializer" class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
+
+</beans>
+
+```
+---
+
+### Spring-RedisCache.xml
+
+---
+``` xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:cache="http://www.springframework.org/schema/cache"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/cache
+                            http://www.springframework.org/schema/cache/spring-cache.xsd">
+
+    <!--配置缓存管理器-->
+    <bean id="cacheManager" class="org.springframework.data.redis.cache.RedisCacheManager">
+        <constructor-arg name="redisOperations" ref="redisTemplate"/>
+        <property name="defaultExpiration" value="300"/><!--设置缓存过期时间单位秒，默认不过期-->
+    </bean>
+
+    <!--启用缓存注解 注解方式配置@EnableCaching-->
+    <cache:annotation-driven cache-manager="cacheManager"/>
+
+</beans>
+
+```
+---
 
 # 缓存指定方法的执行结果
 
