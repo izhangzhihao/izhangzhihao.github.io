@@ -43,12 +43,14 @@ permalink: /MySkillTree/
 6.  HTTP 1.X / HTTP2.0     ~~SDPY（google已停止开发）~~
 16. HTTP [HTTPS](http://www.cnblogs.com/jfzhu/p/4064035.html)
 7.	Git  gitflow
+8. ASP.NET MVC 
+9. Entity Framework
 8. dotNet 单元测试  msUnit  xUnit  mock
 9. 控制反转 IOC  依赖注入 DI
 10. 面向切面编程 AOP
 10. 日志 Log4Net log4j slf4j logback
-11. Junit
-12. Jacoco
+11. java 单元测试 Junit
+12. 单元测试代码覆盖率 Jacoco
 11. bootstrap
 12. Python Django
 13. Entity Framework On MySQL
@@ -56,7 +58,7 @@ permalink: /MySkillTree/
 15. CDN（了解）
 17.	调试工具：MiniProfiler&&Glimpse
 18.	持续集成服务：AppVeyor&&Travis-CI
-19.	TeamCity
+19.	持续集成/持续部署 工具 TeamCity && Jenkins
 20. Filter (.NET ,Java)
 21. Maven
 22. Gradle
@@ -66,20 +68,22 @@ permalink: /MySkillTree/
 23. Hibernate
 24. Shiro
 25. Redis  StackExchange.Redis  Cache 和 Session 共享  spring-session
-26. Jenkins
+27. [Spring MVC 将session保存至redis](https://github.com/izhangzhihao/SpringMVCWithJavaConfig)
+28. [Shiro将session保存至redis](https://github.com/izhangzhihao/Shiro-Session-Redis)
+29. [Spring 缓存保存至Reids/EhCache JavaConfig/XML](https://izhangzhihao.github.io/2016/08/22/Redis-OR-EhCache-作为Spring的缓存/)
 
 ## 计划中/在学
 
 1. Scala
 2. SEO
 3. JSONP
-4. Oauth
+4. Oauth2 / Token 
 5. [Gradle多项目构建](https://github.com/someok/gradle-multi-project-example)
 23.	AngularJS
 24.	RequireJS
 25.	react-native（了解）
 1.	NodeJS(了解)
-26.	前端构建工具（gulp,grunt）
+26.	前端构建工具（webpack,gulp,grunt）
 27. 微服务
 1.	ES6+
 2.	TypeScript
