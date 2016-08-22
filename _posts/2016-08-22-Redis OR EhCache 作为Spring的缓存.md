@@ -173,6 +173,7 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
 # 缓存指定方法的执行结果
 
     设置好缓存配置之后我们就可以使用 @Cacheable 注解来缓存方法执行的结果了
+
 ---
 ``` java
 
@@ -188,9 +189,9 @@ public class LogController {
      */
     @GetMapping("/getLogByPage/pageNumber/{pageNumber}/pageSize/{pageSize}")
     @Cacheable("getLogByPage")
-    public ResponseEntity<PageResults<Log>> getLogByPage(@PathVariable int pageNumber,
-                                                        @PathVariable int pageSize) throws Exception {
-        return new ResponseEntity<>(logService.getListByPage(pageNumber, pageSize), HttpStatus.OK);
+    public PageResults<Log> getLogByPage(@PathVariable int pageNumber,
+                                         @PathVariable int pageSize) throws Exception {
+        return logService.getListByPage(pageNumber, pageSize);
     }
 }
 
@@ -206,4 +207,18 @@ public class LogController {
 
 # 自定义缓存 key 生成策略
 
+    对于使用 @Cacheable 注解的方法，每个缓存的 key 生成策略默认使用的是参数名+参数值，
+    这个方法的缓存将保存于 key 为例如 getLogByPage~keys 的缓存下，但是@Cacheable(value="XXX"),如果"XXX"重复的话，
+    两个方法之间的缓存就会互相覆盖，出现问题。
+
+    解决办法是使用自定义缓存策略:见上面的customKeyGenerator()方法。
+    使用方式@Cacheable(value = "getLogByPage", keyGenerator = "customKeyGenerator")。
+    这样生成的key就变成了com.github.izhangzhihao.SpringMVCSeedProject.Controller.LogControllergetLogByPage110这样的
+
+# 注意：
     
+    要缓存的 Java 对象必须实现 Serializable 接口
+
+
+
+
