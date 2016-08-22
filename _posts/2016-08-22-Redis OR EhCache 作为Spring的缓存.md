@@ -54,16 +54,22 @@ public class EhCacheConfig {
 ```
 ---
 
+
+
 #Redis作为缓存配置 ：
 
 ##依赖
+
     "org.springframework.data:spring-data-redis:1.7.2.RELEASE",
     "redis.clients:jedis:2.9.0",
     "org.apache.commons:commons-pool2:2.4.2",
 
+
 ##JavaConfig配置
 
+
 ### RedisConfig
+
 ---
 ``` java
 
@@ -162,3 +168,38 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
 
 ```
 ---
+
+
+# 缓存指定方法的执行结果
+
+    设置好缓存配置之后我们就可以使用 @Cacheable 注解来缓存方法执行的结果了
+---
+``` java
+
+@RestController
+@RequestMapping("/Log")
+public class LogController {
+    /**
+     * 日志分页查询
+     *
+     * @param pageNumber 页码
+     * @param pageSize   每页大小
+     * @return json数据
+     */
+    @GetMapping("/getLogByPage/pageNumber/{pageNumber}/pageSize/{pageSize}")
+    @Cacheable("getLogByPage")
+    public ResponseEntity<PageResults<Log>> getLogByPage(@PathVariable int pageNumber,
+                                                        @PathVariable int pageSize) throws Exception {
+        return new ResponseEntity<>(logService.getListByPage(pageNumber, pageSize), HttpStatus.OK);
+    }
+}
+
+```
+---
+
+# 缓存一致性保证
+
+    CRUD (Create 创建，Read 读取，Update 更新，Delete 删除) 操作中，除了 R 具备幂等性，其他三个都可能会造成缓存结果和数据库不一致。
+    为了保证缓存数据的一致性，在进行 CUD 操作的时候我们需要对可能影响到的缓存进行更新或者清除。
+    使用 @CacheEvict 清除缓存。如果 CUD 相关方法能返回实体，也可以使用 @CachePut 更新缓存策略。
+    @CacheEvict会将所有相关方法的缓存都清理掉，所以能用@CachePut的话最好。
