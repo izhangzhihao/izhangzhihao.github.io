@@ -56,16 +56,16 @@ public class EhCacheConfig {
 
 
 
-#Redis作为缓存配置 ：
+# Redis作为缓存配置 ：
 
-##依赖
+## 依赖
 
     "org.springframework.data:spring-data-redis:1.7.2.RELEASE",
     "redis.clients:jedis:2.9.0",
     "org.apache.commons:commons-pool2:2.4.2",
 
 
-##JavaConfig配置
+## JavaConfig配置
 
 
 ### RedisConfig
@@ -203,3 +203,7 @@ public class LogController {
     为了保证缓存数据的一致性，在进行 CUD 操作的时候我们需要对可能影响到的缓存进行更新或者清除。
     使用 @CacheEvict 清除缓存。如果 CUD 相关方法能返回实体，也可以使用 @CachePut 更新缓存策略。
     @CacheEvict会将所有相关方法的缓存都清理掉，所以能用@CachePut的话最好。
+
+# 自定义缓存 key 生成策略
+
+    
