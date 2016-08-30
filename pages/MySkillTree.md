@@ -30,6 +30,7 @@ permalink: /MySkillTree/
 6. 《代码整洁之道》
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
+9. 《微服务设计》
 
 # 技能
 
@@ -77,7 +78,7 @@ permalink: /MySkillTree/
 1. Scala
 2. SEO
 3. JSONP
-4. Oauth2 / Token 
+4. Oauth2 / Token / 无状态会话
 5. [Gradle多项目构建](https://github.com/someok/gradle-multi-project-example)
 23.	AngularJS
 24.	RequireJS
@@ -100,7 +101,7 @@ permalink: /MySkillTree/
 2. SpringBoot
 3.	Spring-Security
 1.	spring cloud
-2.	~~Thymeleaf(性能不好)~~
+2.	Thymeleaf
 4. [XSS，CSRF，Session Fixation，中间人攻击](http://www.cnblogs.com/coco1s/p/5777260.html)
 
 
