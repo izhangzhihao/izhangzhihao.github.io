@@ -190,6 +190,7 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
             sb.append(o.getClass().getName());
             sb.append(method.getName());
             for (Object obj : objects) {
+				sb.append("-");
                 sb.append(obj.toString());
             }
             return sb.toString();
