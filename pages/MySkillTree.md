@@ -68,6 +68,7 @@ permalink: /MySkillTree/
 24. JPA
 23. Hibernate
 24. Shiro
+1.	MyBatis
 25. Redis  StackExchange.Redis  Cache 和 Session 共享  spring-session
 27. [Spring MVC 将session保存至redis](https://github.com/izhangzhihao/SpringMVCWithJavaConfig)
 28. [Shiro将session保存至redis](https://github.com/izhangzhihao/Shiro-Session-Redis)
@@ -91,7 +92,6 @@ permalink: /MySkillTree/
 3. Oracle 
 1.	Nginx
 1.	消息队列 ActiveMQ  RabbitMQ Kafka
-1.	MyBatis
 1.	Jedis
 2.	spring-data-redis
 3.	Lucene索引
