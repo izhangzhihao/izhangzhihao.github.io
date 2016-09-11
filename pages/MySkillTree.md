@@ -20,6 +20,7 @@ permalink: /MySkillTree/
 11.	《你不知道的JavaScript 上》
 12. 《Scala编程》
 13. 《jQuery in Action》
+14.  微服务设计》
 
 ## 计划读/在读
 1. 《SQL学习指南》
@@ -30,7 +31,7 @@ permalink: /MySkillTree/
 6. 《代码整洁之道》
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
-9. 《微服务设计》
+9. 《Spring Boor In Action 中文版》
 
 # 技能
 
