@@ -32,6 +32,7 @@ permalink: /MySkillTree/
 6. 《代码整洁之道》
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
+9. 《代码整洁之道》
 10.《the docker book 中文版》
 
 # 技能
@@ -43,7 +44,7 @@ permalink: /MySkillTree/
 3.	多线程，线程安全，死锁，线程池
 4.  parallel     Parallel LINQ (PLINQ)  TPL(Task Parallel Library) 
 5.  反射(.NET ,Java)
-6.  HTTP 1.X / HTTP2.0     ~~SDPY（google已停止开发）~~
+6.  HTTP 1.X / HTTP2.0 / SPDY / QUIC
 16. HTTP [HTTPS](http://www.cnblogs.com/jfzhu/p/4064035.html)
 7.	Git  gitflow
 8. ASP.NET MVC 
