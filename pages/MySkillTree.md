@@ -33,7 +33,7 @@ permalink: /MySkillTree/
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
 9. 《代码整洁之道》
-10.《the docker book 中文版》
+10. 《the docker book 中文版》
 
 # 技能
 
