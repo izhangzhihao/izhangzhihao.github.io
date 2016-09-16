@@ -67,6 +67,7 @@ permalink: /MySkillTree/
 22. Gradle
 21. Spring
 22.	SpringMVC
+2. SpringBoot
 24. JPA
 23. Hibernate
 24. Shiro
@@ -81,9 +82,10 @@ permalink: /MySkillTree/
 1. Scala
 2. SEO
 3. JSONP
+3. Docker
 4. Oauth2 / Token / 无状态会话
 5. [Gradle多项目构建](https://github.com/someok/gradle-multi-project-example)
-23.	AngularJS
+23.	Angular2
 24.	RequireJS
 25.	react-native（了解）
 1.	NodeJS(了解)
@@ -100,7 +102,6 @@ permalink: /MySkillTree/
 4. Guava 
 1.	SSO single sign on 单点登录
 2.	Jsckson
-2. SpringBoot
 3.	Spring-Security
 1.	spring cloud
 2.	Thymeleaf
