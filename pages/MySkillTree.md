@@ -32,7 +32,6 @@ permalink: /MySkillTree/
 6. 《代码整洁之道》
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
-9. 《代码整洁之道》
 10. 《the docker book 中文版》
 
 # 技能
@@ -80,6 +79,7 @@ permalink: /MySkillTree/
 
 ## 计划中/在学
 
+1. Spring Cloud Netflix(Spring Cloud Zuul/Spring Cloud Config/Spring Cloud Eureka/Spring Cloud Eureka Server/Spring Cloud Feign/Spring Cloud Ribbon/Spring Cloud Hystrix)
 1. Scala
 2. SEO
 3. JSONP
@@ -104,7 +104,6 @@ permalink: /MySkillTree/
 1.	SSO single sign on 单点登录
 2.	Jsckson
 3.	Spring-Security
-1.	spring cloud
 2.	Thymeleaf
 4. [XSS，CSRF，Session Fixation，中间人攻击](http://www.cnblogs.com/coco1s/p/5777260.html)
 
