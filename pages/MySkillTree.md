@@ -22,6 +22,7 @@ permalink: /MySkillTree/
 13. 《jQuery in Action》
 14. 《微服务设计》
 15. 《Spring Boor In Action 中文版》
+16. 《The Docker Book 中文版》
 
 ## 计划读/在读
 1. 《SQL学习指南》
@@ -32,7 +33,6 @@ permalink: /MySkillTree/
 6. 《代码整洁之道》
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
-10. 《the docker book 中文版》
 
 # 技能
 
