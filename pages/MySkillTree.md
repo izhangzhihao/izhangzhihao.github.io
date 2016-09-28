@@ -76,6 +76,7 @@ permalink: /MySkillTree/
 27. [Spring MVC 将session保存至redis](https://github.com/izhangzhihao/SpringMVCWithJavaConfig)
 28. [Shiro将session保存至redis](https://github.com/izhangzhihao/Shiro-Session-Redis)
 29. [Spring 缓存保存至Reids/EhCache JavaConfig/XML](https://izhangzhihao.github.io/2016/08/22/Redis-OR-EhCache-作为Spring的缓存/)
+30. Docker
 
 ## 计划中/在学
 
@@ -83,7 +84,6 @@ permalink: /MySkillTree/
 1. Scala
 2. SEO
 3. JSONP
-3. Docker
 4. Oauth2 / Token / 无状态会话
 5. [Gradle多项目构建](https://github.com/someok/gradle-multi-project-example)
 23.	Angular2
