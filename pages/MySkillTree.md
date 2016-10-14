@@ -84,6 +84,7 @@ permalink: /MySkillTree/
 1. Spring Cloud Netflix(Spring Cloud Zuul/Spring Cloud Config/Spring Cloud Eureka/Spring Cloud Eureka Server/Spring Cloud Feign/Spring Cloud Ribbon/Spring Cloud Hystrix)
 1. Scala
 2. Mockito / Easymock
+3. 单元测试/行为测试/状态测试/集成测试
 2. SEO
 3. JSONP
 4. Oauth2 / Token / 无状态会话
