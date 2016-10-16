@@ -26,9 +26,8 @@ permalink: /MySkillTree/
 17. 《Effective Java》
 
 ## 计划读/在读
-1. 《SQL学习指南》
-2. 《Scala程序设计》
-3. 《算法的乐趣》
+1. 《Scala程序设计》
+3. ~~《算法的乐趣》~~
 4. 《Java性能权威指南》
 6. 《代码整洁之道》
 7. 《Java技术手册：第6版》
@@ -83,7 +82,7 @@ permalink: /MySkillTree/
 
 1. Spring Cloud Netflix(Spring Cloud Zuul/Spring Cloud Config/Spring Cloud Eureka/Spring Cloud Eureka Server/Spring Cloud Feign/Spring Cloud Ribbon/Spring Cloud Hystrix)
 1. Scala
-2. Mockito / Easymock
+2. Mockito / ~~Easymock~~
 3. 单元测试/行为测试/状态测试/集成测试
 2. SEO
 3. JSONP
@@ -93,7 +92,7 @@ permalink: /MySkillTree/
 24.	RequireJS
 25.	react-native（了解）
 1.	NodeJS(了解)
-26.	前端构建工具（webpack,gulp,grunt）
+26.	前端构建工具（webpack,gulp,~~grunt~~）
 27. 微服务
 1.	ES6+
 2.	TypeScript
