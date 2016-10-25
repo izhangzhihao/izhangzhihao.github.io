@@ -24,6 +24,7 @@ permalink: /MySkillTree/
 15. 《Spring Boor In Action 中文版》
 16. 《The Docker Book 中文版》
 17. 《Effective Java》
+18. 《软件设计重构》
 
 ## 计划读/在读
 1. 《Scala程序设计》
