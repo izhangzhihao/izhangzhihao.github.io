@@ -25,10 +25,10 @@ permalink: /MySkillTree/
 16. 《The Docker Book 中文版》
 17. 《Effective Java》
 18. 《软件设计重构》
+19. 《看板实战》
 
 ## 计划读/在读
 1. 《Scala程序设计》
-1. 《看板实战》
 1. 《用户故事地图》
 4. 《Java性能权威指南》
 6. 《代码整洁之道》
