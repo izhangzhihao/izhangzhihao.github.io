@@ -107,7 +107,6 @@ permalink: /MySkillTree/
 4. Guava 
 1.	SSO single sign on 单点登录
 2.	Jsckson
-3.	Spring-Security
 2.	Thymeleaf
 4. [XSS，CSRF，Session Fixation，中间人攻击](http://www.cnblogs.com/coco1s/p/5777260.html)
 
