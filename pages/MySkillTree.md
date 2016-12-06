@@ -34,6 +34,7 @@ permalink: /MySkillTree/
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
 9. 《java数据结构和算法》
+11.	《你不知道的JavaScript 中》
 
 # 技能
 
@@ -78,12 +79,13 @@ permalink: /MySkillTree/
 28. [Shiro将session保存至redis](https://github.com/izhangzhihao/Shiro-Session-Redis)
 29. [Spring 缓存保存至Reids/EhCache JavaConfig/XML](https://izhangzhihao.github.io/2016/08/22/Redis-OR-EhCache-作为Spring的缓存/)
 30. Docker
+31. Mockito
 
 ## 计划中/在学
 
 1. Spring Cloud Netflix(Spring Cloud Zuul/Spring Cloud Config/Spring Cloud Eureka/Spring Cloud Eureka Server/Spring Cloud Feign/Spring Cloud Ribbon/Spring Cloud Hystrix)
+27. 微服务
 1. Scala
-2. Mockito / ~~Easymock~~
 3. RxJava
 2. SEO
 3. JSONP
@@ -94,16 +96,13 @@ permalink: /MySkillTree/
 25.	react-native（了解）
 1.	NodeJS(了解)
 26.	前端构建工具（webpack,gulp,~~grunt~~）
-27. 微服务
-1.	ES6+
-2.	TypeScript
-3. Oracle 
+1.	ES6 + TypeScript
 1.	Nginx
 1.	消息队列 ActiveMQ  RabbitMQ Kafka
 1.	Jedis
 2.	spring-data-redis
 3.	Lucene索引
-4. Guava 
+4.  Guava 
 1.	SSO single sign on 单点登录
 2.	Jsckson
 2.	Thymeleaf
