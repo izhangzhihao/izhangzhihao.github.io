@@ -48,10 +48,10 @@ permalink: /MySkillTree/
 6.  HTTP 1.X / HTTP2.0 / SPDY / QUIC
 16. HTTP [HTTPS](http://www.cnblogs.com/jfzhu/p/4064035.html)
 7.	Git  gitflow
-8. ASP.NET MVC 
-9. Entity Framework
-8. dotNet 单元测试  msUnit  xUnit  mock
-9. 控制反转 IOC  依赖注入 DI
+8.  ASP.NET MVC 
+9.  Entity Framework
+8.  dotNet 单元测试  msUnit  xUnit  mock
+9.  控制反转 IOC  依赖注入 DI
 10. 面向切面编程 AOP
 10. 日志 Log4Net log4j slf4j logback
 11. java 单元测试 Junit
@@ -69,7 +69,7 @@ permalink: /MySkillTree/
 22. Gradle
 21. Spring
 22.	SpringMVC
-2. SpringBoot
+2.  SpringBoot
 24. JPA
 23. Hibernate
 24. Shiro
@@ -93,7 +93,6 @@ permalink: /MySkillTree/
 5. [Gradle多项目构建](https://github.com/someok/gradle-multi-project-example)
 23.	Angular2
 24.	RequireJS
-25.	react-native（了解）
 1.	NodeJS(了解)
 26.	前端构建工具（webpack,gulp,~~grunt~~）
 1.	ES6 + TypeScript
@@ -106,7 +105,6 @@ permalink: /MySkillTree/
 1.	SSO single sign on 单点登录
 2.	Jsckson
 2.	Thymeleaf
-4. [XSS，CSRF，Session Fixation，中间人攻击](http://www.cnblogs.com/coco1s/p/5777260.html)
 
 
 
