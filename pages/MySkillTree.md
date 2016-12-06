@@ -31,7 +31,6 @@ permalink: /MySkillTree/
 ## 计划读/在读
 1. 《Scala程序设计》
 4. 《Java性能权威指南》
-6. 《代码整洁之道》
 7. 《Java技术手册：第6版》
 8. 《How Tomcat Works》
 9. 《java数据结构和算法》
