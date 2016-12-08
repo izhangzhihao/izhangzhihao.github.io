@@ -90,7 +90,6 @@ permalink: /MySkillTree/
 2. SEO
 3. JSONP
 4. Oauth2 / Token / 无状态会话
-5. [Gradle多项目构建](https://github.com/someok/gradle-multi-project-example)
 23.	Angular2
 24.	RequireJS
 1.	NodeJS(了解)
