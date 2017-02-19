@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://izhangzhihao.github.io/
+url: https://yuzp1996.github.io/
 date_format: "ordinal"
 title: MyWay
-subtitle: "Make the impossible possible, the possible easy and the easy elegant"
-description: "张志豪的个人博客"
-keywords: 张志豪
+subtitle: "The pain you feel today is the strength you feel tomorrow"
+description: "鱼狗狗的个人博客"
+keywords: 于志鹏
 favicon: /favicon.ico
 timezone: Asia/Tangshan
 encoding: "utf-8"
@@ -17,11 +17,11 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: 张志豪
+author: 于志鹏
 organization: ThoughtWorks
 # organization_url: 
-location: BeiJing, China
-email: izhangzhihao@hotmail.com
+location: tangshan, China
+email: yuzp1996@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -76,11 +76,11 @@ collections:
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: izhangzhihao
-facebook_username: izhangzhihao
-weibo_username: izhangzhihao
-zhihu_username: 张志豪
-twitter_username: izhangzhihao
+#github_username: izhangzhihao
+#facebook_username: izhangzhihao
+#weibo_username: izhangzhihao
+#zhihu_username: 张志豪
+#twitter_username: izhangzhihao
 
 # ---------------- #
 #      Comments    #
