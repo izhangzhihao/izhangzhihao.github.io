@@ -9,7 +9,7 @@ subtitle: "Make the impossible possible, the possible easy and the easy elegant"
 description: "张志豪的个人博客"
 keywords: 张志豪
 favicon: /favicon.ico
-timezone: Asia/Tangshan
+timezone: Asia/BeiJing
 encoding: "utf-8"
 source_code: https://github.com/izhangzhihao/izhangzhihao.github.io
 side_bar_repo_limit: 5
@@ -101,5 +101,5 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_language_keywords: [Java, Scala , C Sharp]
+skill_language_keywords: [Java, Scala, C Sharp, Python]
 skill_web_app_keywords: [javaEE, Spring ,Spring MVC ,JPA , Hibernate , MyBatis, Shiro ,Redis ,Spring Data ,MySql ,ASP.NET ,ASP.NET MVC,Entity Framework]
