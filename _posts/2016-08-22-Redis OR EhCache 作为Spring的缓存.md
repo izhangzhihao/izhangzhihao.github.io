@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redis OR EhCache 作为Spring的缓存
+categories: Java
 description: Spring支持多种缓存，原来一直使用EhCache作为缓存的实现，今天试试Redis
 ---
 
@@ -333,9 +334,5 @@ public class LogController {
     这样生成的key就变成了com.github.izhangzhihao.SpringMVCSeedProject.Controller.LogControllergetLogByPage110这样的
 
 # 注意：
-    
+
     要缓存的 Java 对象必须实现 Serializable 接口
-
-
-
-

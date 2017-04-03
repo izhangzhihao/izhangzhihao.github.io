@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 解决循环依赖
+categories: Java
 description: 解决循环依赖
 ---
 
@@ -18,7 +19,7 @@ public class ShiroRealm extends AuthorizingRealm {
 
     @Autowired
     private UserService userService;
-    
+
     ...
 }
 
@@ -41,7 +42,7 @@ public class ShiroRealm extends AuthorizingRealm {
     public void setUserService(UserService userService) {
         this.userService = userService;
     }
-    
+
     ...
 }
 
@@ -63,11 +64,9 @@ public class ShiroRealm extends AuthorizingRealm {
         shiroRealm.setUserService(new UserService());
         return shiroRealm;
     }
-    
+
     ...
 }
 
 ```
 ---
-
-

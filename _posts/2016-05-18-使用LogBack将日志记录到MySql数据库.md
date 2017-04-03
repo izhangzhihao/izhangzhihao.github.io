@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用LogBack将日志记录到MySql数据库
+categories: LogBack
 description: 使用LogBack将日志记录到MySql数据库
 ---
 # 第一步 数据库建表
@@ -11,7 +12,7 @@ description: 使用LogBack将日志记录到MySql数据库
 
 DROP TABLE IF EXISTS `logging_event`;
 CREATE TABLE `logging_event` (
-  `timestmp` LONG NOT NULL, 
+  `timestmp` LONG NOT NULL,
   `formatted_message` TEXT NOT NULL,
   `logger_name` VARCHAR(255) NOT NULL,
   `level_string` VARCHAR(255) NOT NULL,
@@ -34,7 +35,7 @@ CREATE TABLE `logging_event` (
 
 DROP TABLE IF EXISTS `logging_event_property`;
 CREATE TABLE `logging_event_property` (
-  `event_id` INT NOT NULL, 
+  `event_id` INT NOT NULL,
   `mapped_key` VARCHAR(255) NOT NULL,
   `mapped_value` TEXT NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
@@ -44,7 +45,7 @@ CREATE TABLE `logging_event_property` (
 
 DROP TABLE IF EXISTS `logging_event_exception`;
 CREATE TABLE `logging_event_exception` (
-  `event_id` INT NOT NULL, 
+  `event_id` INT NOT NULL,
   `i` SMALLINT NOT NULL,
   `trace_line` VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
@@ -65,7 +66,7 @@ dependencies {
             "ch.qos.logback:logback-classic:1.1.7",
             )
 }
-            
+
 ```
 ---
 
@@ -163,7 +164,7 @@ root(WARN, ["stdOut"])
 # 如果使用了Hibernate并且做了映射的话
 
 ---
-``` 
+```
 
 第一步中最好将 `timestmp` LONG NOT NULL, 改为 `timestmp` mediumtext NOT NULL,
 映射可以这么写 @Column(columnDefinition="MEDIUMTEXT") private String timestmp;
