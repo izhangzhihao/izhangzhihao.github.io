@@ -19,7 +19,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: 张志豪
 organization: ThoughtWorks
-# organization_url: 
+organization_url: https://www.thoughtworks.com/
 location: BeiJing, China
 email: izhangzhihao@hotmail.com
 
@@ -85,12 +85,10 @@ twitter_username: izhangzhihao
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, duoshuo, changyan
+# support provider: disqus, changyan
 comments_provider: disqus
-# !!!重要!!! 请修改下面两个用户名为你自己申请的
-# !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
-disqus_username: mzlogin
+# !!!重要!!! 请修改下面用户名为你自己申请的
+disqus_username: izhangzhihao
 
 # ---------------- #
 #    Analytics     #
