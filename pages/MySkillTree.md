@@ -20,7 +20,7 @@ permalink: /MySkillTree/
 12. 《Scala编程》
 13. 《jQuery in Action》
 14. 《微服务设计》
-15. 《Spring Boor In Action 中文版》
+15. 《Spring Boot In Action 中文版》
 16. 《The Docker Book 中文版》
 17. 《Effective Java》
 18. 《软件设计重构》
@@ -43,13 +43,13 @@ permalink: /MySkillTree/
 
 ## 已经完成
 
-1.	单例模式（考虑线程安全）使用lock，++: Scala object
+1.	单例模式
 2.	工厂模式
 3.	多线程，线程安全，死锁，线程池
 4.  parallel     Parallel LINQ (PLINQ)  TPL(Task Parallel Library) 
 5.  反射(.NET ,Java)
 6.  HTTP 1.X / HTTP2.0 / SPDY / QUIC
-7. HTTP [HTTPS](http://www.cnblogs.com/jfzhu/p/4064035.html)
+7.  HTTP [HTTPS](http://www.cnblogs.com/jfzhu/p/4064035.html)
 7.	Git  gitflow
 8.  ASP.NET MVC 
 9.  Entity Framework
@@ -70,6 +70,7 @@ permalink: /MySkillTree/
 20. Filter (.NET ,Java)
 21. Maven
 22. Gradle
+23. SBT
 21. Spring
 22.	SpringMVC
 2.  SpringBoot
@@ -101,7 +102,7 @@ permalink: /MySkillTree/
 1.	Nginx
 1.	消息队列 ActiveMQ  RabbitMQ Kafka
 1.	Jedis
-3.	Lucene索引
+3.	Lucene
 4.  Guava 
 1.	SSO single sign on 单点登录
 2.	Jsckson
