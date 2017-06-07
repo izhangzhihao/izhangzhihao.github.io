@@ -36,10 +36,6 @@ navs:
     label: 分类
 
   -
-    href: /MySkillTree/
-    label: 我的技能树
-
-  -
     href: /about/
     label: 关于我
 
