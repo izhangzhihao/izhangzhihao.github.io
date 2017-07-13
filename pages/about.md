@@ -2,13 +2,13 @@
 layout: page
 title: About Me
 description: 代码改变世界
-keywords: 张志豪
+keywords: 严泽凡
 comments: true
 menu: 关于我
 permalink: /about/
 ---
 
-我是张志豪
+我是严泽凡
 
 仰慕「优雅编码的艺术」。
 
@@ -20,10 +20,10 @@ permalink: /about/
 
 ## 联系我
 
-* GitHub：[@izhangzhihao](https://github.com/izhangzhihao)
-* LinkedIn：[@张志豪](https://cn.linkedin.com/in/izhangzhihao)
+* GitHub：[@StevenJack1](https://github.com/StevenJack1)
+* LinkedIn：[@严泽凡](https://cn.linkedin.com/in/StevenJack1)
 * 博客：[{{ site.title }}]({{ site.url }})
-* 知乎: [@张志豪](https://www.zhihu.com/people/i-zhang-zhi-hao)
+* 知乎: [@严泽凡](https://www.zhihu.com/people/i-zhang-zhi-hao)
 
 ## Skill Keywords
 
