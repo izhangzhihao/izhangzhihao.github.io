@@ -2,26 +2,26 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://izhangzhihao.github.io/
+url: https://StevenJack1.github.io/
 date_format: "ordinal"
 title: MyNotes
 subtitle: "Make the impossible possible, the possible easy and the easy elegant"
-description: "张志豪的个人博客"
-keywords: 张志豪
+description: "严泽凡的个人博客"
+keywords: 严泽凡
 favicon: /favicon.ico
 timezone: Asia/BeiJing
 encoding: "utf-8"
-source_code: https://github.com/izhangzhihao/izhangzhihao.github.io
+source_code: https://github.com/StevenJack1/StevenJack1.github.io
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: 张志豪
+author: 严泽凡
 organization: ThoughtWorks
 organization_url: https://www.thoughtworks.com/
 location: BeiJing, China
-email: izhangzhihao@hotmail.com
+email: 18231550929@163.com
 
 # ---------------- #
 #    Navigation    #
@@ -72,19 +72,17 @@ collections:
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: izhangzhihao
-facebook_username: izhangzhihao
-weibo_username: izhangzhihao
-zhihu_username: 张志豪
-twitter_username: izhangzhihao
+github_username: StevenJack1
+facebook_username: StevenJack
+weibo_username: StevenJack
+zhihu_username: 严泽凡
+twitter_username: StevenJack
 
 # ---------------- #
 #      Comments    #
 # ---------------- #
 # support provider: disqus, changyan
 comments_provider: disqus
-# !!!重要!!! 请修改下面用户名为你自己申请的
-disqus_username: izhangzhihao-github-io
 
 # ---------------- #
 #    Analytics     #
