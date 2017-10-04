@@ -9,7 +9,7 @@ description: 我的第一个intellij插件！
 
 ## 大概是这样的：
 
-![](https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/master/screenshots/with-material-theme-ui.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/1.0/screenshots/with-material-theme-ui.png)
 
 ## 安装
 
