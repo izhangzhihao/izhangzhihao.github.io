@@ -14,7 +14,7 @@ description: Word representation
 
 ```
 1. 纬度高(计算量大，学习速率极慢)
-2. 数据稀疏(绝大部分向量的值为零)
+2. 数据稀疏(绝大部分向量的值为零,词汇鸿沟)
 3. 所有的向量都正交(难以表示两个词的相似性)
 ```
 
@@ -33,7 +33,7 @@ Distributional Representation指的是一类获取文本表示的方法，而Dis
 ### Distributed Representation 的优点：
 
 ```
-1. 纬度低(100~500维)
+1. 纬度低
 2. 连续向量，数据稠密
 3. 可以表示语义空间的线性关系
 ```
@@ -46,6 +46,7 @@ Embedding在数学上表示一个maping, f: X -> Y， 也就是一个function，
 
 Word embedding就是在用数学的方法建模词和context之间的关系。
 
+#### Word2Vec
 
 用输入单词作为中心单词去预测周边单词的方式叫做：[Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
 
