@@ -219,6 +219,7 @@ def even(i: Int): Boolean = i % 2 == 0
 ```
 
 * 如果需要定义一个**function**，为了避免每次传递这个function都会创建一个新的对象(scala 2.11):
+
 ```scala
 val even: Int => Boolean = _ % 2 == 0
 ```
