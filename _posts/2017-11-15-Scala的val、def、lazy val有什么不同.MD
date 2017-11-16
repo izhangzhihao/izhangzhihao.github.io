@@ -23,7 +23,7 @@ Type in expressions for evaluation. Or try :help.
 
 * In scala 2.11.11
 
-```
+```scala
 scala> :paste
 // Entering paste mode (ctrl-D to finish)
 
@@ -46,7 +46,7 @@ Method def even evaluates on call and creates new function every time (new insta
 
 * In scala 2.12.4
 
-```
+```scala
 scala> :paste
 // Entering paste mode (ctrl-D to finish)
 
@@ -69,7 +69,7 @@ res20: Int = 1803942588
 
 * scala 2.11.11
 
-```
+```scala
 scala> :paste
 // Entering paste mode (ctrl-D to finish)
 
@@ -88,7 +88,7 @@ res1: Boolean = true
 
 * scala 2.11.11
 
-```
+```scala
 scala> :paste
 // Entering paste mode (ctrl-D to finish)
 
@@ -114,7 +114,7 @@ res3: Int = -1716734099
 
 * scala 2.11.11
 
-```
+```scala
 scala> :paste
 // Entering paste mode (ctrl-D to finish)
 
@@ -140,7 +140,7 @@ res5: Int = 793997349
 
 * scala 2.11.11
 
-```
+```scala
 scala> val even: Int => Boolean = ???
 scala.NotImplementedError: an implementation is missing
   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)
@@ -154,7 +154,7 @@ scala.NotImplementedError: an implementation is missing
 
 * scala 2.11.11
 
-```
+```scala
 scala> def even: Int => Boolean = ???
 even: Int => Boolean
 
@@ -174,12 +174,12 @@ scala>
 
 * scala 2.11.11
 
-```
+```scala
 scala> lazy val even: Int => Boolean = ???
 even: Int => Boolean = <lazy>
 ```
 
-```
+```scala
 scala> :paste
 // Entering paste mode (ctrl-D to finish)
 
