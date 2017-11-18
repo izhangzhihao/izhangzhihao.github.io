@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How To Ask Questions The Smart Way
+categories: 方法论
+description: 用最聪明的方式发问(转载)
 ---
 
 # 提问的智慧

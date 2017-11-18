@@ -7,7 +7,6 @@ description: Word representation
 
 # Word representation
 
-
 ## [One-hot representation](https://en.wikipedia.org/wiki/One-hot)
 
 ### One-hot representation 的缺点：

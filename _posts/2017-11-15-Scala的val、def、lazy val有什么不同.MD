@@ -2,13 +2,13 @@
 layout: post
 title: Scala的val、def、lazy val有什么不同
 categories: scala
-description: Scala的val、def、lazy val有什么不同
+description: Scala的val、def、lazy val有什么不同，怎么选择最好的方式来定义methods/functions?
 ---
 
 # Scala的val、def、lazy val有什么不同
 
 ```
-> scala     
+> scala
 Welcome to Scala 2.12.4 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_144).
 Type in expressions for evaluation. Or try :help.
 ```
@@ -149,7 +149,6 @@ scala.NotImplementedError: an implementation is missing
 
 * 2.12.4 same
 
-
 ## def evaluates when called
 
 * scala 2.11.11
@@ -164,11 +163,10 @@ scala.NotImplementedError: an implementation is missing
   at .even(<console>:11)
   ... 32 elided
 
-scala> 
+scala>
 ```
 
 * 2.12.4 same
-
 
 ## `lazy val` evaluates only when first time been called, but return the result initialized in the first time:
 

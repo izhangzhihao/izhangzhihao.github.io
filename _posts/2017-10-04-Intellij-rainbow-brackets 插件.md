@@ -5,7 +5,7 @@ categories: intellij
 description: 我的第一个intellij插件！
 ---
 
-## 今天花了一上午的时间为intellij写了个[Rainbow Brackets 插件](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)。
+## 今天花了一上午的时间为intellij写了个[Rainbow Brackets 插件](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)。[![Build Status](https://travis-ci.org/izhangzhihao/intellij-rainbow-brackets.svg?branch=master)](https://travis-ci.org/izhangzhihao/intellij-rainbow-brackets) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1c72f2de07a5452da479565883d3ab74)](https://www.codacy.com/app/izhangzhihao/intellij-rainbow-brackets?utm_source=github.com&utm_medium=referral&utm_content=izhangzhihao/intellij-rainbow-brackets&utm_campaign=badger) [![Rainbow Brackets Release](https://img.shields.io/github/release/izhangzhihao/intellij-rainbow-brackets.svg)](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets) [![Plugin version](https://img.shields.io/jetbrains/plugin/d/10080-rainbow-brackets.svg)](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
 
 ## 大概是这样的：
 
