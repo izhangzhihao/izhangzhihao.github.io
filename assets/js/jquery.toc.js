@@ -1,5 +1,3 @@
-// https://github.com/ghiculescu/jekyll-table-of-contents
-// Updated by http://mazhuang.org
 (function($){
   $.fn.toc = function(options) {
     var defaults = {
@@ -29,6 +27,7 @@
     }), output = $(this);
     if (!headers.length || headers.length < settings.minimumHeaders || !output.length) {
       $(this).hide();
+      $('.post-directory-title').css('display', 'none');
       return;
     }
 
@@ -138,6 +137,12 @@ $(document).ready(function(){
   }
   highlightTocSection();
 
+  var updateTocHeight = function() {
+      var height = document.documentElement.clientHeight;
+      height = height || 'auto';
+      $('.post-directory').css('max-height', height);
+  }
+
   $(window).scroll(function() {
     var currentScroll = $(window).scrollTop();
     if (currentScroll >= fixmeTop) {
@@ -146,18 +151,27 @@ $(document).ready(function(){
         position: 'fixed',
         width: 'inherit'
       });
+      $('.post-directory').css('overflow', 'auto');
     } else {
       $('#post-directory-module').css({
         position: 'inherit',
         width: 'inherit'
       });
+      $('.post-directory').css('overflow', 'hidden');
+      $('.post-directory').scrollTop(0);
     }
 
     highlightTocSection();
   });
+
+  updateTocHeight();
+
+  $(window).on("resize", function() {
+      updateTocHeight();
+  });
 });
 
-$(".jumper").on("click", function( e ) {
+$(".jumper").on("click", function( e ) {
   e.preventDefault();
   $("body, html").animate({
     scrollTop: $( $(this).attr('href') ).offset().top
