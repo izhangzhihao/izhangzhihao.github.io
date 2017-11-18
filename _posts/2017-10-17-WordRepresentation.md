@@ -3,6 +3,7 @@ layout: post
 title: Word representation
 categories: 机器学习
 description: Word representation
+keywords: Word representation, Distributed Representation, Distributional Hypothesis, 分布式假设, Word Embedding, Embedding, word2vec
 ---
 
 # Word representation
