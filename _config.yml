@@ -36,6 +36,10 @@ navs:
     label: 分类
 
   -
+    href: /open-source/
+    label: Open Source Projects
+
+  -
     href: /about/
     label: 关于我
 
