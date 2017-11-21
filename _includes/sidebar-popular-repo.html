@@ -1,6 +1,6 @@
-<h3>My Popular Repositories</h3>
+<h3>最近更新</h3>
 {% if site.github.public_repositories != null %}
-{% assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse%}
+{% assign repos = site.github.public_repositories | sort: "pushed_at" | reverse%}
 {% for repo in repos | limit: site.side_bar_repo_limit %}
 <a href="{{ repo.html_url }}" target="_blank" class="card text-center">
     <div class="thumbnail">
@@ -22,9 +22,9 @@
                 <span class="meta-info" title="{{ repo.forks_count }} forks">
                     <span class="octicon octicon-git-branch"></span> {{ repo.forks_count }}
                 </span>
-                <span class="meta-info" title="Last updated：{{ repo.updated_at }}">
+                <span class="meta-info" title="Last updated：{{ repo.pushed_at }}">
                     <span class="octicon octicon-clock"></span>
-                    <time datetime="{{ repo.updated_at }}">{{ repo.updated_at | date: '%Y-%m-%d' }}</time>
+                    <time datetime="{{ repo.pushed_at }}">{{ repo.pushed_at | date: '%Y-%m-%d' }}</time>
                 </span>
             </div>
         </div>
