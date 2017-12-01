@@ -54,6 +54,7 @@ subscribe_rss: /feed.xml
 markdown: kramdown
 kramdown:
     input: GFM
+    syntax_highlighter: rouge
 highlighter: rouge
 paginate: 9
 lsi: false
@@ -99,5 +100,5 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_language_keywords: [Java, Scala, Python, C Sharp]
-skill_web_app_keywords: [TensorFlow, DeepLearning, Docker, Rancher, Ansible, javaEE, Spring , Spring MVC ,JPA , Hibernate , MyBatis, Shiro ,Redis ,Spring Data ,MySql]
+skill_language_keywords: [Java, Scala, Kotlin, Python, C Sharp]
+skill_web_app_keywords: [TensorFlow, DeepLearning, Docker, Rancher, Ansible, javaEE, Spring, Spring MVC, JPA, Hibernate, MyBatis, Shiro, Redis, Spring Data,MySql]
