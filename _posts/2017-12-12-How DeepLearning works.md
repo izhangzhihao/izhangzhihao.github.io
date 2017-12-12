@@ -1,0 +1,67 @@
+---
+layout: post
+title: How DeepLearning works
+categories: 机器学习
+description: 用通俗易懂的方式解释 DeepLearning
+keywords: DeepLearning
+---
+
+# How DeepLearning works
+
+## 从线性回归(Linear Regression)说开来
+
+假设我们有一些数据：某一小区的房屋面积和房屋销售价格。我们想预测已知面积价格未知的房屋的销售价格。
+
+在这种情况下，最简单最朴素的模型就是线性回归模型(在同一小区内，显然面积和价格成正比)
+
+线性回归的模型是这样的，对于一个样本 x ，它的输出值是其特征的线性组合：f(x) = Wx
+在这个例子中 `W` 和 `x` 都是一维的，此时模型学的是一条直线。
+如果 `W` 和 `x` 不是一维的，模型学到的将会是一个超平面。
+
+线性回归的目标是尽可能的拟合目标的 label ，那我们如何衡量拟合的好坏呢？
+举个简单的例子：我们取所有目标 label 距离拟合出直线的距离的平均值作为 loss ，
+loss 越大说明拟合的越差，相反 loss 越小说明拟合程度越高。
+
+loss function
+
+![](/assets/images/linear_regression_loss_function.png)
+
+当我们有了 loss function 之后模型怎么知道怎样才能降低 loss 提高拟合程度呢？
+
+## 反向传播(BackPropagation)
+
+我们来回想一下上面提到的目的：使得 loss 尽可能的小
+其实就是寻找一个 `W`  使得 loss function 的值最小，回想一下高数的知识吧：求最值，如何求一个二次函数的最小值？
+
+对于例子中的一元二次函数来说比较简单，就是求导，导数为0的地方就是极值点。
+对于多元函数：
+
+我们知道偏导数是多元函数沿坐标轴的变化率，而我们要求的是多元函数沿任意方向的变化率，这样偏导数就帮不上忙了。
+
+设f(x,y)为一个二元函数,![](http://www.zhihu.com/equation?tex=u+%3Dcos%5Ctheta+i%2Bsin%5Ctheta+j)为一个单位向量
+
+方向导数定义为
+
+![](http://www.zhihu.com/equation?tex=D_%7Bu%7Df%28x%2Cy%29%3Df_%7Bx%7D%28x%2Cy%29cos%5Ctheta+++%2Bf_%7By%7D%28x%2Cy%29sin%5Ctheta++)
+
+这个极限值是f沿着u方向的方向导数，那么随着角度的不同，我们可以求出任意方向的方向导数.这也表明了方向导数的用处，是为了给我们考虑函数对任意方向的变化率.
+
+设 ![](http://www.zhihu.com/equation?tex=A%3D%28f_%7Bx%7D%28x%2Cy%29+%2Cf_%7By%7D%28x%2Cy%29%29), ![](http://www.zhihu.com/equation?tex=I%3D%28cos%5Ctheta+%2Csin%5Ctheta+%29)
+
+![](http://www.zhihu.com/equation?tex=D_%7Bu%7Df%28x%2Cy%29%3DA%5Cbullet+I%3D%5Cleft%7C+A+%5Cright%7C+%2A%5Cleft%7C+I+%5Cright%7C+cos%5Calpha+) (alpha为向量A与向量I之间的夹角)
+
+那么此时如果要取得最大值，也就是当alpha为0度的时候，也就是向量I（这个方向是一直在变，在寻找一个函数变化最快的方向）与向量A（这个方向当点固定下来的时候，它就是固定的）平行的时候，方向导数最大.方向导数最大，也就是单位步伐，函数值朝这个反向变化最快。
+
+好了，现在我们已经找到函数值下降最快的方向了，这个方向就是和A向量相同的方向.那么此时我把A向量命名为梯度（当一个点确定后，梯度方向是确定的），也就是说明了为什么梯度方向是函数变化率最大的方向了。（因为本来就是把这个函数变化最大的方向命名为梯度）。
+
+总之，我们求得了最值得到了合适的 `W` 使得 `loss` 最小。
+
+当神经网络的层级加深后，我们需要[链式法则](https://zh.wikipedia.org/zh-hans/链式法则)来帮助我们进行反向传播：
+
+![](http://www.zhihu.com/equation?tex=%5Cdisplaystyle%5Cfrac%7B%5Cpartial+f%7D%7B%5Cpartial+x%7D%3D%5Cfrac%7B%5Cpartial+f%7D%7B%5Cpartial+q%7D%5Cfrac%7B%5Cpartial+q%7D%7B%5Cpartial+x%7D)
+
+略
+
+## 一些思考
+
+深度学习是用拟合的手段去学习复杂的关系。理论上讲深度学习可以拟合任意复杂的函数，只要该函数蕴含着某些规律。如果是毫无规律可寻的情况，那么DeepLearning 也无法从中学到什么东西。
