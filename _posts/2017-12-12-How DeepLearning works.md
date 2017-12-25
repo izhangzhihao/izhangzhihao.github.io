@@ -24,7 +24,7 @@ loss 越大说明拟合的越差，相反 loss 越小说明拟合程度越高。
 
 loss function
 
-![](/assets/images/linear_regression_loss_function.png)
+ $ J(x) = \frac{1}{n} \sum _{i=1}^n(y_i-f(x_i))^2 $
 
 当我们有了 loss function 之后模型怎么知道怎样才能降低 loss 提高拟合程度呢？
 
@@ -38,17 +38,19 @@ loss function
 
 我们知道偏导数是多元函数沿坐标轴的变化率，而我们要求的是多元函数沿任意方向的变化率，这样偏导数就帮不上忙了。
 
-设f(x,y)为一个二元函数,![](http://www.zhihu.com/equation?tex=u+%3Dcos%5Ctheta+i%2Bsin%5Ctheta+j)为一个单位向量
+设f(x,y)为一个二元函数, $ u = cos\theta_i + sin\theta_i $ 为一个单位向量
 
 方向导数定义为
 
-![](http://www.zhihu.com/equation?tex=D_%7Bu%7Df%28x%2Cy%29%3Df_%7Bx%7D%28x%2Cy%29cos%5Ctheta+++%2Bf_%7By%7D%28x%2Cy%29sin%5Ctheta++)
+$ D_uf(x,y) = f_x(x,y)cos\theta + f_y(x,y)sin\theta $
 
 这个极限值是f沿着u方向的方向导数，那么随着角度的不同，我们可以求出任意方向的方向导数.这也表明了方向导数的用处，是为了给我们考虑函数对任意方向的变化率.
 
-设 ![](http://www.zhihu.com/equation?tex=A%3D%28f_%7Bx%7D%28x%2Cy%29+%2Cf_%7By%7D%28x%2Cy%29%29), ![](http://www.zhihu.com/equation?tex=I%3D%28cos%5Ctheta+%2Csin%5Ctheta+%29)
+设 $ A = (f_x(x,y),f_y(x,y)) , I = (cos\theta,sin\theta) $
 
-![](http://www.zhihu.com/equation?tex=D_%7Bu%7Df%28x%2Cy%29%3DA%5Cbullet+I%3D%5Cleft%7C+A+%5Cright%7C+%2A%5Cleft%7C+I+%5Cright%7C+cos%5Calpha+) (alpha为向量A与向量I之间的夹角)
+$ D_uf(x,y) = A \bullet I = \left\|A\right\|*\left\|I\right\| cos\alpha$
+
+($ \alpha $为向量A与向量I之间的夹角)
 
 那么此时如果要取得最大值，也就是当alpha为0度的时候，也就是向量I（这个方向是一直在变，在寻找一个函数变化最快的方向）与向量A（这个方向当点固定下来的时候，它就是固定的）平行的时候，方向导数最大.方向导数最大，也就是单位步伐，函数值朝这个反向变化最快。
 
@@ -58,7 +60,7 @@ loss function
 
 当神经网络的层级加深后，我们需要[链式法则](https://zh.wikipedia.org/zh-hans/链式法则)来帮助我们进行反向传播：
 
-![](http://www.zhihu.com/equation?tex=%5Cdisplaystyle%5Cfrac%7B%5Cpartial+f%7D%7B%5Cpartial+x%7D%3D%5Cfrac%7B%5Cpartial+f%7D%7B%5Cpartial+q%7D%5Cfrac%7B%5Cpartial+q%7D%7B%5Cpartial+x%7D)
+$ \frac{\partial_f}{\partial_x} = \frac{\partial_f}{\partial_q} \frac{\partial_q}{\partial_x} $
 
 略
 
