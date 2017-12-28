@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fix: java.nio.charset.MalformedInputException: Input length = 1
+title: Fix MalformedInputException
 categories: sbt
 description: Fix sbt 运行测试时遇到的java.nio.charset.MalformedInputException: Input length = 1问题。
 keywords: scala,MalformedInputException,Input length = 1,sbt
