@@ -12,7 +12,7 @@ keywords: Word representation, Distributed Representation, Distributional Hypoth
 
 ### One-hot representation 的缺点：
 
-```
+``` comments
 1. 纬度高(计算量大，学习速率极慢)
 2. 数据稀疏(绝大部分向量的值为零,词汇鸿沟)
 3. 所有的向量都正交(难以表示两个词的相似性)
@@ -22,17 +22,17 @@ keywords: Word representation, Distributed Representation, Distributional Hypoth
 
 ### Distributional Hypothesis(分布式假设)
 
-```
+``` comments
 linguistic items with similar distributions have similar meanings.
 ```
 
-```
+``` comments
 Distributional Representation指的是一类获取文本表示的方法，而Distributed Representation指的是文本表示的形式，就是低维、稠密的连续向量。
 ```
 
 ### Distributed Representation 的优点：
 
-```
+``` comments
 1. 纬度低
 2. 连续向量，数据稠密
 3. 可以表示语义空间的线性关系

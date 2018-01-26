@@ -10,7 +10,7 @@ keywords: Oozie,Sqoop,Hive
 
 ## 找不到数据库驱动
 
-```
+``` java
 java.lang.RuntimeException: Could not load db driver class: com.mysql.jdbc.Driver
 	at org.apache.sqoop.manager.SqlManager.makeConnection(SqlManager.java:875)
     ...    
@@ -20,7 +20,7 @@ java.lang.RuntimeException: Could not load db driver class: com.mysql.jdbc.Drive
 
 然后在“job.properties” 中加上：
 
-```
+``` config
 oozie.libpath=${nameNode}/user/oozie/share/lib/sqoop
 ```
 
@@ -28,7 +28,7 @@ oozie.libpath=${nameNode}/user/oozie/share/lib/sqoop
 
 在 `sqoop` 用户中直接跑命令没问题，在 oozie 中居然挂了
 
-```
+``` java
 2183 [main] ERROR org.apache.sqoop.tool.ImportTool  - Encountered IOException running import job: java.io.IOException: Could not start Java compiler.
 	at org.apache.sqoop.orm.CompilationManager.compile(CompilationManager.java:192)
     ...
@@ -36,13 +36,13 @@ oozie.libpath=${nameNode}/user/oozie/share/lib/sqoop
 
 解决办法：在`oozie`用户下设置`JAVA_HOME`:
 
-```
+``` bash
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-1.b12.el7_4.x86_64
 ```
 
 ## Heart beat
 
-```
+``` log
 ...
 5732 [main] INFO  org.apache.hadoop.yarn.client.api.impl.YarnClientImpl  - Submitted application application_1513839281144_0004
 5752 [main] INFO  org.apache.hadoop.mapreduce.Job  - The url to track the job: http://node3.domain:8088/proxy/application_1513839281144_0004/
@@ -73,7 +73,7 @@ Heart beat
 
 而且每次使用 oozie 的 workflow 提交的时候都会在 hadoop 上跑两个 “app“。而且我把`yarn.scheduler.maximum-allocation-mb`设置到了8G，原因是之前出现过一次
 
-```
+``` log
 2017-12-20 21:33:58,261 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1513820237394_0011_m_000000_0: Container killed by the ApplicationMaster.
 Container killed on request. Exit code is 143
 Container exited with a non-zero exit code 143

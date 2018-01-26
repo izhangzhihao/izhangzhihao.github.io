@@ -12,7 +12,7 @@ keywords: scala,MalformedInputException,Input length = 1,sbt
 
 所以直接在.bash_profil中添加：
 
-```
+``` bash
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8

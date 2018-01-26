@@ -8,13 +8,13 @@ keywords: scala, val, def, var, lazy val, method, function
 
 # Scala的val、def、lazy val有什么不同
 
-```
+``` bash
 > scala
 Welcome to Scala 2.12.4 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_144).
 Type in expressions for evaluation. Or try :help.
 ```
 
-```
+``` bash
 > scala@2.11
 Welcome to Scala 2.11.11 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_144).
 Type in expressions for evaluation. Or try :help.

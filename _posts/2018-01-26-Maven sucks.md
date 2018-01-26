@@ -10,7 +10,7 @@ keywords: maven, gradle
 
 只需要在 maven 项目根目录运行
 
-```
+``` bash
 gradle init
 ```
 
@@ -26,7 +26,7 @@ The Gradle Build Init plugin can be used to bootstrap the process of creating a 
 
 卸载 maven 啊
 
-```
+``` bash
 brew uninstall maven
 ```
 
