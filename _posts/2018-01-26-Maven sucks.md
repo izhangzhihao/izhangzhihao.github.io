@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Convert maven project to gradle project
-categories: gradle
+categories: gradle maven
 description: Maven太恶心啦，我要用 Gradle !
 keywords: maven, gradle
 ---
@@ -20,7 +20,7 @@ gradle init
 
 [Build Init Plugin](https://docs.gradle.org/current/userguide/build_init_plugin.html):
 
-*** The Gradle Build Init plugin can be used to bootstrap the process of creating a new Gradle build. It supports creating brand new projects of different types as well as converting existing builds (e.g. An Apache Maven build) to be Gradle builds. ***
+The Gradle Build Init plugin can be used to bootstrap the process of creating a new Gradle build. It supports creating brand new projects of different types as well as converting existing builds (e.g. An Apache Maven build) to be Gradle builds.
 
 ## 然后做什么？
 
@@ -30,4 +30,4 @@ gradle init
 brew uninstall maven
 ```
 
-以后只用 gradle 和 sbt 了
+以后只用 gradle 和 sbt 了。
