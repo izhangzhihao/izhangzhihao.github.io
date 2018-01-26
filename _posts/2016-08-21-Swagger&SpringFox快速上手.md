@@ -6,16 +6,16 @@ description: Swagger是一个规范和完整的框架，用于生成、描述、
 ---
 
 # 简介：
-    Swagger是一个规范和完整的框架，用于生成、描述、调用和可视化 RESTful 风格的 Web 服务。
-    总体目标是使客户端和文件系统作为服务器以同样的速度来更新。
-    文件的方法，参数和模型紧密集成到服务器端的代码，允许API来始终保持同步。
-    Springfox 项目地址 https://github.com/springfox/springfox
-    Springfox 官方文档 https://springfox.github.io/springfox/docs/current/
+Swagger是一个规范和完整的框架，用于生成、描述、调用和可视化 RESTful 风格的 Web 服务。
+总体目标是使客户端和文件系统作为服务器以同样的速度来更新。
+文件的方法，参数和模型紧密集成到服务器端的代码，允许API来始终保持同步。
+Springfox 项目地址 https://github.com/springfox/springfox
+Springfox 官方文档 https://springfox.github.io/springfox/docs/current/
 
 # Gradle依赖：
-    //springfox
-    "io.springfox:springfox-swagger2:2.5.0",
-    "io.springfox:springfox-swagger-ui:2.5.0",
+//springfox
+"io.springfox:springfox-swagger2:2.5.0",
+"io.springfox:springfox-swagger-ui:2.5.0",
 
 # JavaConfig方式配置：
 ---
