@@ -12,13 +12,8 @@ permalink: /open-source/
 <section class="container">
     <header class="text-center">
         <h1>Open Source Projects</h1>
-        <p class="lead">我在 Github 一共有<span class="repo-count">{{ site.github.public_repositories.size }}</span>个开源项目,</p>
-        <p class="lead">总共获得了<span class="repo-count">{{ site.github.public_repositories.map(&:stargazers_count).map(&:to_i).inject(0, &:+) }}</span>个star。</p>
-
-{% for repo in site.github.public_repositories%}
-<p>{{repo.stargazers_count}}</p>
-{% endfor %}
-    
+        <p class="lead">我在 Github 一共有<span class="repo-count">{{ site.github.public_repositories.size }}</span>个开源项目</p>
+        <span class="repo-count">{{ site.github.public_repositories.map(&:stargazers_count).map(&:to_i).inject(0, &:+)}}</span>
     </header>
     <div class="repo-list">
         <!-- Check here for github metadata -->
