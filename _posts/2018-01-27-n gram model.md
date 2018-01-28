@@ -1,7 +1,7 @@
 ---
 layout: post
 title: n gram model
-categories: n-gram
+categories: n-gram 机器学习
 description: n元语法
 keywords: n-gram
 ---
