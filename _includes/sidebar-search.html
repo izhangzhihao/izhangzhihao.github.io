@@ -1,14 +1,14 @@
-
-<h3>搜索</h3>
+<h3>
+    搜索</h3>
 <div id="site_search">
     <input type="text" id="search_box" placeholder="请输入...">
 </div>
 
 <ul id="search_results"></ul>
 
-<link rel="stylesheet" type="text/css" href="/assets/css/modules/sidebar-search.css?v={{site.version}}">
-<script src="/assets/js/jekyll-search.min.js?v={{site.version}}"></script>
-<script src="/assets/js/search.js?v={{site.version}}"></script>
+<link rel="stylesheet" type="text/css" href="/assets/css/modules/sidebar-search.css?v={{site.version}}" rel=“preload” as="stylesheet">
+<script src="/assets/js/jekyll-search.min.js?v={{site.version}}" rel=“preload” as="script"></script>
+<script src="/assets/js/search.js?v={{site.version}}" rel=“preload” as="script"></script>
 
 <script type="text/javascript">
     SimpleJekyllSearch({
@@ -22,4 +22,3 @@
         exclude: ['Welcome']
     })
 </script>
-
