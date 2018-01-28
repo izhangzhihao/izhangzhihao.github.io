@@ -61,14 +61,16 @@ lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
-gems:
+plugins:
     - rouge
 #     - jekyll-html-pipeline
     - jekyll-paginate
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
-#     - jekyll-mentions
+    - jekyll-gist
+    - jekyll-mentions
+    - jekyll-seo-tag
 collections:
     wiki:
         output: true
