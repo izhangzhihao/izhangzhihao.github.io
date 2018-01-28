@@ -12,7 +12,7 @@
                     <a href="javascript:window.scrollTo(0,0)" >TOP</a>
                 </li>
             </ul>
-            <a href="{{ site.source_code }}" target="_blank" aria-label="view source code">
+            <a href="{{ site.source_code }}" target="_blank" rel="noopener" aria-label="view source code">
                 <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
             </a>
             <ul class="site-footer-links mobile-hidden">
@@ -26,10 +26,10 @@
         </div>
     </footer>
     <!-- / footer -->
-    <script src="/assets/vendor/share.js/dist/js/share.min.js"></script>
-    <script src="/assets/js/geopattern.js"></script>
-    <script src="/assets/js/prism.js"></script>
-    <link rel="stylesheet" href="/assets/css/globals/prism.css">
+    <script src="/assets/vendor/share.js/dist/js/share.min.js?v={{site.version}}"></script>
+    <script src="/assets/js/geopattern.js?v={{site.version}}"></script>
+    <script src="/assets/js/prism.js?v={{site.version}}"></script>
+    <link rel="stylesheet" href="/assets/css/globals/prism.css?v={{site.version}}">
     <script>
       jQuery(document).ready(function($) {
         $('.geopattern').each(function(){

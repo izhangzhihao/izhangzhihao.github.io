@@ -14,6 +14,8 @@ encoding: "utf-8"
 source_code: https://github.com/izhangzhihao/izhangzhihao.github.io
 side_bar_repo_limit: 5
 
+version : 1
+
 # ---------------- #
 #      Author      #
 # ---------------- #
