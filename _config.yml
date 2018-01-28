@@ -16,6 +16,10 @@ side_bar_repo_limit: 5
 
 version : 1
 
+webrick:
+  headers:
+    Cache-Control: public, max-age=31536000
+
 # ---------------- #
 #      Author      #
 # ---------------- #
