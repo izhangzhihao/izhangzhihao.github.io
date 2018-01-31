@@ -6,7 +6,17 @@
             <script>
                 document.write(new Date().getFullYear())
             </script>
-            <span title="{{ site.author}}">{{ site.author }}</span>
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name" title="{{site.author}}">{{ site.author }}</span>
+            </span>
+            <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
+                <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+                  <meta itemprop='url' content='https://avatars1.githubusercontent.com/u/12044174?s=60&v=4'/> 
+                  <meta itemprop='width' content='60'/> <!-- Logos should be no wider than 600px. -->
+                  <meta itemprop='height' content='60'/> <!-- and no taller than 60px.-->
+                </div>
+                <meta itemprop='name' content='{{site.author}}'/>
+              </div>
             <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
         </div>
         <ul class="site-footer-links right mobile-hidden">
@@ -32,6 +42,7 @@
     </div>
 </footer>
 <!-- / footer -->
+</span>
 <script src="/assets/vendor/share.js/dist/js/share.min.js?v={{site.version}}" rel=“preload” as="script"></script>
 <script src="/assets/js/geopattern.js?v={{site.version}}" rel=“preload” as="script"></script>
 <script src="/assets/js/prism.js?v={{site.version}}" rel=“preload” as="script"></script>
