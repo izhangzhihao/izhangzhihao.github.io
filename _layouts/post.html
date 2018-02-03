@@ -67,6 +67,10 @@ layout: default
       <span itemprop="articleBody">
           <article class="article-content markdown-body">
               {{ content }}
+              <br/>
+              <p>
+                  原文链接：{{ site.url }}{{ page.url | url_decode }}
+              </p>
           </article>
       </span>
       <div class="share">
