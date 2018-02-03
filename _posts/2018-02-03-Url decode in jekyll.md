@@ -15,5 +15,15 @@ keywords: Url decode in jekyll
 ## Usage
 
 ``` ruby
+{% raw %}
 {{ page.url | url_decode }}
+{% endraw %}
+```
+
+## Escaping double curly braces inside a markdown code block in Jekyll
+
+``` ruby
+{% raw %}
+{{ page.url }}.
+{% endraw %}
 ```
