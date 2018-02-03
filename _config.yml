@@ -75,7 +75,7 @@ plugins:
     - jekyll-feed
     - jemoji
     - jekyll-gist
-    - jekyll-mentions
+    # - jekyll-mentions that will breack https://search.google.com/structured-data/testing-tool
     - jekyll-seo-tag
 collections:
     wiki:

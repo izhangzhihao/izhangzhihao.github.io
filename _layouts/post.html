@@ -1,6 +1,36 @@
 --- 
 layout: default
 ---
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://google.com/article"
+    },
+    "headline": "{{page.title}}",
+    "image": [
+      "https://avatars1.githubusercontent.com/u/12044174?s=460&v=4"
+    ],
+    "datePublished": "{{ page.date | date: "%Y/%m/%d" }}T08:00:00+08:00",
+    "dateModified": "{{ page.date | date: "%Y/%m/%d" }}T08:00:00+08:00",
+    "author": {
+      "@type": "Person",
+      "name": "{{site.author}}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{site.author}}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://avatars1.githubusercontent.com/u/12044174?s=60&v=4"
+      }
+    },
+    "description": "{{page.description}}"
+  }
+</script>
 <span itemscope itemscope='itemscope' itemprop="mainEntityOfPage" itemtype="http://schema.org/Article">
 <section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15, ''}}">
   <div class="container">
