@@ -4,6 +4,7 @@ title: How DeepLearning works
 categories: 机器学习
 description: 用通俗易懂的方式解释 DeepLearning
 keywords: DeepLearning
+math: true
 ---
 
 # How DeepLearning works

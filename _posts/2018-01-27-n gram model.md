@@ -4,6 +4,7 @@ title: n gram model
 categories: n-gram 机器学习
 description: n元语法
 keywords: n-gram
+math: true
 ---
 
 # n元语法(n gram model)

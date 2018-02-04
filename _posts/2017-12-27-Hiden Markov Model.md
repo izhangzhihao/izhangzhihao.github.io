@@ -4,6 +4,7 @@ title: 隐马尔可夫模型
 categories: 机器学习
 description: 隐马尔可夫模型
 keywords: HMM, Hiden Markov Model
+math: true
 ---
 
 ## 信念网络（BN：Belief Network）
