@@ -3,6 +3,7 @@ layout: post
 title: How To Ask Questions The Smart Way
 categories: 方法论
 description: 用最聪明的方式发问(转载)
+reproduced: http://www.catb.org/~esr/faqs/smart-questions.html
 ---
 
 # 提问的智慧

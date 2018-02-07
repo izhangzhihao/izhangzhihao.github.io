@@ -4,6 +4,7 @@ title: Type classes in Scala part 1
 categories: scala
 description: Type classes in Scala(转载自https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html)
 keywords: Type classes, Scala
+reproduced: https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html
 ---
 
 # Type classes in Scala part 1
