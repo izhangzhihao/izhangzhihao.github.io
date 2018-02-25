@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Url decode in jekyll
-categories: jekyll ruby
+categories: Jekyll Ruby
 description: Url decode in jekyll
 keywords: Url decode in jekyll
 ---

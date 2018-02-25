@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scala的val、def、lazy val有什么不同
-categories: scala
+categories: Scala
 description: Scala的val、def、lazy val有什么不同，怎么选择最好的方式来定义methods/functions?
 keywords: scala, val, def, var, lazy val, method, function
 ---

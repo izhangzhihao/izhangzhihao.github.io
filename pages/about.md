@@ -10,8 +10,6 @@ permalink: /about/
 
 我是张志豪
 
-仰慕「优雅编码的艺术」。
-
 ## 坚信
 
 * Continuous Learning
@@ -35,7 +33,7 @@ permalink: /about/
     {% endfor %}
 </div>
 
-#### Web Developer Keywords
+#### Skill Keywords
 <div class="btn-inline">
     {% for keyword in site.skill_web_app_keywords %}
     <button class="btn btn-outline" type="button">{{ keyword }}</button>

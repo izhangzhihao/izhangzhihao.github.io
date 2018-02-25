@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rainbow Brackets插件
-categories: intellij
+categories: Intellij
 description: 我的第一个intellij插件！
 ---
 

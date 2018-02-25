@@ -3,7 +3,7 @@ layout: post
 title: Convert maven project to gradle project
 categories: gradle maven
 description: Maven太恶心啦，我要用 Gradle !
-keywords: maven, gradle
+keywords: Maven, Gradle
 ---
 
 # 快速把 maven 项目转为 gradle 项目！
