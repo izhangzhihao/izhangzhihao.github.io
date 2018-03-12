@@ -12,7 +12,7 @@ keywords: Rainbow Brackets, Intellij, Kotlin
 
 Github 上的 Stars：203
 
-Github 上的 Issues & Pull requests：27
+Github 上的 Issues & Pull requests：27 & 8
 
 从第一个版本到现在总共发布了25个 release
 
@@ -49,7 +49,7 @@ Twitter 上还有不少人发推赞叹这个插件...
 * Proposal
 * ...
 
-看了一下，issues 和 Pull requests总共有27个。这里尤其要感谢@YiiGuxing，在这个[pr](https://github.com/izhangzhihao/intellij-rainbow-brackets/pull/25)中，通过迁移解决了旧版本中每个语言都要有一个特殊实现的问题，整体简化了 plugin 的代码，真是棒棒哒。
+看了一下，issues 和 Pull requests总共有27 + 8个。这里尤其要感谢@YiiGuxing，在这个[pr](https://github.com/izhangzhihao/intellij-rainbow-brackets/pull/25)中，通过迁移解决了旧版本中每个语言都要有一个特殊实现的问题，整体简化了 plugin 的代码，真是棒棒哒。
 
 ## 收获
 
