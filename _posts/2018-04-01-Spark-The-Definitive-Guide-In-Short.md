@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spark-The-Definitive-Guide-In-Short
+title: Spark The Definitive Guide In Short
 categories: Spark Scala
 description: Spark The Definitive Guide In Short
 keywords: Spark, Scala, Kafka
