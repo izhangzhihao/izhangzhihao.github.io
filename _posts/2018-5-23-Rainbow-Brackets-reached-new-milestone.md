@@ -34,7 +34,7 @@ Github 上的 Issues & Pull requests：57 & 16
 
 ![](/assets/images/download-by-products.png)
 
-可以明显看出 “IIU” 即 Intellij IDEA Ultimate版本的下载量最高，排在第二的“PS”即 PHP Storm，排在第三的是"AI"(这个找了一圈也没找到对应的产品)，排在第四的是“WS” 即 Web Storm，排在第五的是“IIC” 即 Intellij IDEA Community。
+可以明显看出 “IIU” 即 Intellij IDEA Ultimate版本的下载量最高，排在第二的“PS”即 PHP Storm，排在第三的是"AI"(这个找了一圈也没找到对应的产品，猜测是 Android Studio)，排在第四的是“WS” 即 Web Storm，排在第五的是“IIC” 即 Intellij IDEA Community。
 
 ## Features
 
