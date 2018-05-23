@@ -24,15 +24,21 @@ Github 上的 Issues & Pull requests：57 & 16
 
 总的趋势基本上可以看出一个项目从零开始到有一些用户的过程，用户的数量的增长速度也在加快。
 
-## Download history
+## Download history(单个版本的下载量统计)
 
 ![](/assets/images/download-history.png)
 
 现在每发布一个新的 release 都能在三天之内增加5000左右的下载量(所以增加下载量的方式是多发布 release, 最后面下载量在减少是因为又发了新版本...
 
+## Statistics by products(统计各个产品下载量信息)
+
+![](/assets/images/download-by-products.png)
+
+可以明显看出 “IIU” 即 Intellij IDEA Ultimate版本的下载量最高，排在第二的“PS”即 PHP Storm，排在第三的是"AI"(这个找了一圈也没找到对应的产品)，排在第四的是“WS” 即 Web Storm，排在第五的是“IIC” 即 Intellij IDEA Community。
+
 ## Features
 
-有什么新功能我就不一一列举了，建议直接去看 github 的 [releases](https://github.com/izhangzhihao/intellij-rainbow-brackets/releases)
+有什么新功能我就不一一列举了，建议直接去看 github 的 [releases](https://github.com/izhangzhihao/intellij-rainbow-brackets/releases)。
 
 ## emmmmm
 
