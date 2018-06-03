@@ -10,7 +10,7 @@ permalink: /about/
 
 我是张志豪
 
-## 坚信
+## 我坚信
 
 * Continuous Learning
 * 学习，应该是一个熵减的过程，卓有成效的学习应该使混乱度越来越小！
@@ -22,7 +22,7 @@ permalink: /about/
 * GitHub：[@izhangzhihao](https://github.com/izhangzhihao)
 * LinkedIn：[@张志豪](https://cn.linkedin.com/in/izhangzhihao)
 * 博客：[{{ site.title }}]({{ site.url }})
-* 知乎: [@张志豪](https://www.zhihu.com/people/i-zhang-zhi-hao)
+* 知乎: [@张志豪](https://www.zhihu.com/people/izhangzhihao)
 
 ## Skill Keywords
 

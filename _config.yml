@@ -111,5 +111,5 @@ baidu:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_language_keywords: [Java, Scala, Kotlin, Python, C Sharp]
-skill_web_app_keywords: [TensorFlow, DeepLearning, Docker, Rancher, Ansible, javaEE, Spring, Spring MVC, JPA, Hibernate, MyBatis, Shiro, Redis, Spring Data,MySql]
+skill_language_keywords: [Java, Scala, Kotlin, Python]
+skill_web_app_keywords: [TensorFlow, DeepLearning, Docker, Rancher, Ansible, javaEE, Spring, Spring Boot, JPA, Hibernate, MyBatis, Shiro, Redis, Spring Data, MySql]
