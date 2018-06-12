@@ -19,8 +19,7 @@
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.subscribe_rss }}">
   <link rel="shortcut icon" href="/favicon.ico"> {% if page.title %}
-  <meta property="og:title" content="{{ page.title }}"> {% if page.keywords %} {% assign keywords = page.keywords %} {% else %} {% assign keywords = site.keywords %} {% endif
-  %}
+  <meta property="og:title" content="{{ page.title }}"> {% if page.keywords %} {% assign keywords = page.keywords %} {% else %} {% assign keywords = site.keywords %} {% endif%}
   <meta name="keywords" content="{{ keywords | strip_html | strip_newlines}}">
   <meta name="og:keywords" content="{{ keywords | strip_html | strip_newlines}}"> {% if page.description %}
   <meta name="description" content="{{ page.description | strip_html | strip_newlines}}">
