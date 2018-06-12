@@ -12,8 +12,7 @@
   <meta name="sogou_site_verification" content="YaFevxsXFQ" />
   <link rel="preconnect" href="https://cdn.bootcss.com">
   <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
-  {% for css in page.css %}
-  <link rel="stylesheet" href="/assets/css/{{css}}?v={{site.version}}" rel=“preload” as="stylesheet"> {% endfor %} {% if site.ios_app_name %}
+  {% if site.ios_app_name %}
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black"> {% endif %}
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
