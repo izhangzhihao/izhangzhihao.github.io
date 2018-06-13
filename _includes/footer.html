@@ -45,16 +45,16 @@
 </span>
 <script src="https://cdn.bootcss.com/social-share.js/1.0.16/js/social-share.min.js" rel=“preload” as="script"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js" rel=“preload” as="script"></script>
-<!-- <script src="https://cdn.bootcss.com/geopattern/1.2.3/js/geopattern.min.js" rel=“preload” as="script"></script> -->
+<script src="https://cdn.bootcss.com/geopattern/1.2.3/js/geopattern.min.js" rel=“preload” as="script"></script>
 <script src="/assets/js/prism.js?v={{site.version}}" rel=“preload” as="script"></script>
 <link rel="stylesheet" href="/assets/css/globals/prism.css?v={{site.version}}" rel=“preload” as="stylesheet">
 <link rel="stylesheet" href="https://cdn.bootcss.com/octicons/4.4.0/font/octicons.min.css" rel=“preload” as="stylesheet">
 <link rel="stylesheet" href="https://cdn.bootcss.com/social-share.js/1.0.16/css/share.min.css" rel=“preload” as="stylesheet">
 <script>
     jQuery(document).ready(function ($) {
-        // $('.geopattern').each(function () {
-            // $(this).geopattern($(this).data('pattern-id'));
-        // });
+        $('.geopattern').each(function () {
+            $(this).geopattern($(this).data('pattern-id'));
+        });
         function adjust_search_box_width() {
             if ($(".post-directory").length) {
                 if ($(".post-directory").is(":visible")) {

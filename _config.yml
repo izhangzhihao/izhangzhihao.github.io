@@ -77,7 +77,6 @@ plugins:
     - jekyll-gist
     # - jekyll-mentions that will breack https://search.google.com/structured-data/testing-tool
     - jekyll-seo-tag
-    - geo_pattern
 collections:
     wiki:
         output: true
