@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Rainbow Brackets document
 keywords: 开源,open-source,GitHub,开源项目,Rainbow Brackets, Intellij, Kotlin
 description: Rainbow Brackets document
