@@ -8,7 +8,7 @@ permalink: /rainbow-brackets-document/
 
 <div align="center">
     <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets">
-        <img src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/src/main/resources/META-INF/pluginIcon.svg" width="320" height="320" alt="logo"></img>
+        <img src="/assets/images/pluginIcon.svg" width="320" height="320" alt="logo"></img>
     </a>
 </div>
 <h1 align="center">Intellij rainbow brackets</h1>
@@ -48,7 +48,7 @@ Discussing code is now as easy as highlighting a block and typing a comment righ
 
 Development powered by [JetBrains](https://www.jetbrains.com/?from=IntelliJRainbowBrackets).
 
-[![https://www.jetbrains.com/?from=IntelliJRainbowBrackets](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/jetbrains.svg)](https://www.jetbrains.com/?from=IntelliJRainbowBrackets)
+[![https://www.jetbrains.com/?from=IntelliJRainbowBrackets](/assets/images/jetbrains.svg)](https://www.jetbrains.com/?from=IntelliJRainbowBrackets)
 
 Whichever technologies you use, there's a JetBrains tool to match.
 
