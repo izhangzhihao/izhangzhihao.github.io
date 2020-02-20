@@ -8,7 +8,7 @@ permalink: /rainbow-brackets-document/
 
 <div align="center">
     <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets">
-        <img src="https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/src/main/resources/META-INF/pluginIcon.svg" width="320" height="320" alt="logo"></img>
+        <img src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/src/main/resources/META-INF/pluginIcon.svg" width="320" height="320" alt="logo"></img>
     </a>
 </div>
 <h1 align="center">Intellij rainbow brackets</h1>
@@ -25,23 +25,6 @@ permalink: /rainbow-brackets-document/
 </p>
 
 <br>
-
-- [Compatibility](#compatibility)
-- [Supported languages](#supported-languages)
-- [Author's choice](#authors-choice)
-- [Sponsored By](#sponsored-by)
-- [Screenshots](#screenshots)
-- [Install](#install)
-- [Customize colors](#customize-colors)
-- [Config file path](#config-file-path)
-- [HTML code in js](#html-code-in-js)
-- [Kotlin function literal braces and arrow](#kotlin-function-literal-braces-and-arrow)
-- [Disable rainbow brackets for specific languages](#disable-rainbow-brackets-for-specific-languages)
-- [Contribute](#contribute)
-- [Support Us](#support-us)
-- [Backers](#backers)
-- [Sponsors](#sponsors)
-- [Acknowledgements](#acknowledgements)
 
 ## Compatibility
 
@@ -65,7 +48,7 @@ Discussing code is now as easy as highlighting a block and typing a comment righ
 
 Development powered by [JetBrains](https://www.jetbrains.com/?from=IntelliJRainbowBrackets).
 
-[![https://www.jetbrains.com/?from=IntelliJRainbowBrackets](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/jetbrains.svg)](https://www.jetbrains.com/?from=IntelliJRainbowBrackets)
+[![https://www.jetbrains.com/?from=IntelliJRainbowBrackets](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/jetbrains.svg)](https://www.jetbrains.com/?from=IntelliJRainbowBrackets)
 
 Whichever technologies you use, there's a JetBrains tool to match.
 
@@ -73,25 +56,25 @@ Whichever technologies you use, there's a JetBrains tool to match.
 
 * with Java
 
-![](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/with-java.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-java.png)
 
-![](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/with-material-theme-ui.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-material-theme-ui.png)
 
 * with Scala
 
-![](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/with-scala.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-scala.png)
 
 * with Clojure
 
-![](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/with-Clojure.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-Clojure.png)
 
 * with Kotlin
 
-![](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/with-kotlin.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-kotlin.png)
 
 * with HTML/XML
 
-![](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/with-HTML.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-HTML.png)
 
 * Scope highlighting
 
@@ -135,7 +118,7 @@ You can download the latest snapshot build from [here](https://circleci.com/gh/i
 
 <kbd>Settings/Preferences</kbd> > <kbd>Editor</kbd> > <kbd>Color Scheme</kbd> > <kbd>Rainbow Brackets</kbd>:
 
-![Customize colors](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/customize-colors.png)
+![Customize colors](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/customize-colors.png)
 
 ### Want to config the number of colors?
 
@@ -144,7 +127,7 @@ You can download the latest snapshot build from [here](https://circleci.com/gh/i
 NOTE: There are 10 default colors for both light and dark theme, if your number is bigger than 10, you can config them in the config file.
 Please follow [the official guide](https://www.jetbrains.com/help/idea/configuring-colors-and-fonts.html#share-color-scheme): 
 * `Export a color scheme as XML`
-* Edit the xml file, put `ROUND_BRACKETS_RAINBOW_COLOR10` to `ROUND_BRACKETS_RAINBOW_COLOR100` to match your number just like [the default color scheme](https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/src/main/resources/colorSchemes/rainbow-color-default-darcula.xml).
+* Edit the xml file, put `ROUND_BRACKETS_RAINBOW_COLOR10` to `ROUND_BRACKETS_RAINBOW_COLOR100` to match your number just like [the default color scheme](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/src/main/resources/colorSchemes/rainbow-color-default-darcula.xml).
 * `Import a color scheme`
 
 ## Config file path
@@ -238,8 +221,8 @@ You can support us by the following actions:
   </tr>
   <tr></tr>
   <tr align="center">
-    <td><img width="70%" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/alipay.jpg"></td>
-    <td><img width="70%" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/raw/IC-2017.2/screenshots/wechat.jpg"></td>
+    <td><img width="70%" src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/alipay.jpg"></td>
+    <td><img width="70%" src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/wechat.jpg"></td>
   </tr>
 </table>
 
