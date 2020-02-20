@@ -35,11 +35,11 @@ email: izhangzhihao@hotmail.com
 navs:
   -
     href: /
-    label: 首页
+    label: Index
 
   -
     href: /categories/
-    label: 分类
+    label: Category
 
   -
     href: /open-source/
@@ -47,7 +47,7 @@ navs:
 
   -
     href: /about/
-    label: 关于我
+    label: About Me
 
 # ---------------- #
 #       RSS        #

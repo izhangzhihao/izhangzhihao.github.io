@@ -70,9 +70,9 @@ layout: default
               <br/>
               <p>
                   {% if page.reproduced %}
-                  原文链接：{{ page.reproduced | url_decode }}
+                  Original link：{{ page.reproduced | url_decode }}
                   {% else %}
-                  原文链接：{{ site.url }}{{ page.url | url_decode }}
+                  Original link：{{ site.url }}{{ page.url | url_decode }}
                   {% endif %}
               </p>
           </article>

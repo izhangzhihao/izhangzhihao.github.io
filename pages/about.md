@@ -4,7 +4,7 @@ title: About Me
 description: 代码改变世界
 keywords: 张志豪
 comments: true
-menu: 关于我
+menu: About Me
 permalink: /about/
 ---
 
