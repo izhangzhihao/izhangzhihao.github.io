@@ -60,4 +60,22 @@ Name:	zhihu.com
 Address: 0.0.0.0
 ```
 
+另外DNS劫持的检查（https://www.dnsleaktest.com）：
+
+```
+Test complete
+Query round	Progress...	Servers found
+1		......		1
+2		......		1
+3		......		1
+4		......		1
+5		......		1
+6		......		1
+IP	Hostname	ISP	Country
+155.138.207.154	dns.nextdns.io.	Choopa, LLC	Atlanta, United States 
+```
+
+还有测速了一下，发现速度提升了一倍不止。。。稳定性更是非常棒！
+
+
 完美！
