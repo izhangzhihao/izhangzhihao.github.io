@@ -37,7 +37,7 @@ keywords: DNS-Over-Https, DOH, NextDns, dnsmasq, PandoraBox, OpenWRT, Padavan, A
 
 换个方式，搜索一番发现貌似Padavan这个固件貌似还不错，再试试：
 
-首先装了Padavan官方固件：发现总体功能很多，但是有很多我用不到。并且路由器磁盘比较紧张，这些功能挺占磁盘空间的，导致每次路由器重启都需要重新下载AdGuardHome，这不是我想看到的。碰巧又看到了一个利用github action来自定义编译固件的项目（https://github.com/chongshengB/Padavan-build），太赞了。搞起！
+首先装了Padavan官方固件：发现总体功能很多，但是有很多我用不到。并且路由器磁盘比较紧张，这些功能挺占磁盘空间的，导致每次路由器重启都需要重新下载AdGuardHome，这不是我想看到的。碰巧又看到了一个利用github action来自定义编译固件的项目（https://github.com/chongshengB/Padavan-build），不用自己搞环境，还可以自定义编译的插件，简直太赞了。搞起！
 
 根据README的描述，Fork了之后，进行了一番修改，在自定义插件里面只留下了AdGuardHome。编译需要约20分钟，编译的固件比Padavan官方小约1MB。安装完成之后，**将NextDNS作为AdGuardHome的上游DNS，启用Dns Over Https, 再把AdGuardHome作为dnsmasq的上游**
 让我们来看看结果：
