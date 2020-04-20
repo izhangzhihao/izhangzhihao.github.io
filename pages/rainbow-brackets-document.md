@@ -15,7 +15,7 @@ permalink: /rainbow-brackets-document/
 <p align="center">Rainbow Brackets / Rainbow Parentheses for IntelliJ based IDEs.</p>
 
 <p align="center"> 
-<a href="https://circleci.com/gh/izhangzhihao/intellij-rainbow-brackets"><img src="https://img.shields.io/circleci/project/github/izhangzhihao/intellij-rainbow-brackets/IC-2017.2.svg?style=flat-square"></a>
+<a href="https://circleci.com/gh/izhangzhihao/intellij-rainbow-brackets"><img src="https://img.shields.io/circleci/project/github/izhangzhihao/intellij-rainbow-brackets/2020.1.svg?style=flat-square"></a>
 <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/releases"><img src="https://img.shields.io/github/release/izhangzhihao/intellij-rainbow-brackets.svg?style=flat-square"></a>
 <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets"><img src="https://img.shields.io/jetbrains/plugin/d/10080-rainbow-brackets.svg?style=flat-square"></a>
 <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets"><img src="https://img.shields.io/jetbrains/plugin/v/10080-rainbow-brackets.svg?style=flat-square"></a>
@@ -40,11 +40,17 @@ Rainbow Brackets + Material Theme UI(Oceanic theme) + Nyan Progress Bar + [Fira 
 
 ## Sponsored By
 
-This plugin is being sponsored by [CodeStream](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbrainbowbrackets&utm_medium=banner).
+This plugin is being sponsored by [CodeStream](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbrainbowbrackets&utm_medium=banner) and [Codota](https://www.codota.com).
 
 [![https://codestream.com](https://alt-images.codestream.com/codestream_logo_jbrainbowbrackets.png)](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbrainbowbrackets&utm_medium=banner)
 
 Discussing code is now as easy as highlighting a block and typing a comment right from your IDE. Take the pain out of code reviews and improve code quality. [Try it free](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbrainbowbrackets&utm_medium=banner)!
+
+<a href="https://www.codota.com">
+    <img src="https://d3ftmdkezac6rp.cloudfront.net/plugins/assets/logo.b81d20edb7ae4d8ff43b886ae5cde1dd.svg" width="300"/>
+</a>
+
+Code faster and smarter using code completions learned from millions of programs directly in IntelliJ, Android Studio or Eclipse. [Get Codota](https://www.codota.com)
 
 Development powered by [JetBrains](https://www.jetbrains.com/?from=IntelliJRainbowBrackets).
 
@@ -56,25 +62,25 @@ Whichever technologies you use, there's a JetBrains tool to match.
 
 * with Java
 
-![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-java.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/with-java.png)
 
-![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-material-theme-ui.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/with-material-theme-ui.png)
 
 * with Scala
 
-![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-scala.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/with-scala.png)
 
 * with Clojure
 
-![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-Clojure.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/with-Clojure.png)
 
 * with Kotlin
 
-![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-kotlin.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/with-kotlin.png)
 
 * with HTML/XML
 
-![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/with-HTML.png)
+![](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/with-HTML.png)
 
 * Scope highlighting
 
@@ -118,14 +124,13 @@ You can download the latest snapshot build from [here](https://circleci.com/gh/i
 
 <kbd>Settings/Preferences</kbd> > <kbd>Editor</kbd> > <kbd>Color Scheme</kbd> > <kbd>Rainbow Brackets</kbd>:
 
-![Customize colors](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/customize-colors.png)
+![Customize colors](https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/customize-colors.png)
 
 ### Want to config the number of colors?
 
 <kbd>Settings/Preferences</kbd> > <kbd>Other Settings</kbd> > <kbd>Rainbow Brackets</kbd> > `Number of colors`: 5 or more
 
 NOTE: For default and darcula color scheme(`Editor -> Color Scheme -> Rainbow Brackets -> Scheme`) the color number is 10, for the other scheme the number is 5, if your number is bigger than the number, you can config them in the config file.
-
 Please follow [the official guide](https://www.jetbrains.com/help/idea/configuring-colors-and-fonts.html#share-color-scheme):
 * `Export a color scheme as XML`
 * Edit the xml file, put `ROUND_BRACKETS_RAINBOW_COLOR5` to `ROUND_BRACKETS_RAINBOW_COLOR100` to match your number just like [the default color scheme](./src/main/resources/colorSchemes/rainbow-color-default-darcula.xml).
@@ -222,8 +227,8 @@ You can support us by the following actions:
   </tr>
   <tr></tr>
   <tr align="center">
-    <td><img width="70%" src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/alipay.jpg"></td>
-    <td><img width="70%" src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/IC-2017.2/screenshots/wechat.jpg"></td>
+    <td><img width="70%" src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/alipay.jpg"></td>
+    <td><img width="70%" src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.1/screenshots/wechat.jpg"></td>
   </tr>
 </table>
 
