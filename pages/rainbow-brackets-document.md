@@ -6,8 +6,6 @@ description: Rainbow Brackets document
 permalink: /rainbow-brackets-document/
 ---
 
-<iframe frameborder="none" width="300px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/10080"></iframe>
-
 <div align="center">
     <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets">
         <img src="/assets/images/pluginIcon.svg" width="320" height="320" alt="logo"/>
@@ -114,9 +112,7 @@ NOTE: <kbd>Button3</kbd> means "Secondary Click (click or tap with two fingers)"
 
 ## Install
 
-For Windows & Linux - <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Rainbow Brackets"</kbd> > <kbd>Install Plugin</kbd> > <kbd>Restart IntelliJ IDEA</kbd>
-
-For Mac - <kbd>IntelliJ IDEA</kbd> > <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Rainbow Brackets"</kbd> > <kbd>Install Plugin</kbd>  > <kbd>Restart IntelliJ IDEA</kbd>
+<iframe frameborder="none" width="300px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/10080"></iframe>
 
 
 ### Install snapshot build
