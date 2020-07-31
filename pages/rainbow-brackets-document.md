@@ -6,6 +6,8 @@ description: Rainbow Brackets document
 permalink: /rainbow-brackets-document/
 ---
 
+<iframe frameborder="none" width="300px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/10080"></iframe>
+
 <div align="center">
     <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets">
         <img src="/assets/images/pluginIcon.svg" width="320" height="320" alt="logo"/>
