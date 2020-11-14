@@ -1,8 +1,9 @@
 ---
 layout: slide
-title: Reveal.js与Jekyll结合演示(幻灯片)
+title: How to Make Your Open Source Project Successful
 theme: night
 # beige black blood league moon night serif simple sky solarized white
+# taken from https://github.com/scateu/scateu.github.io/blob/master/_posts/2016-12-30-reveal-demo.md
 transition: slide 
 # none/fade/slide/convex/concave/zoom  #concave可能会使iOS的Safari崩溃
 ruby_notation: true
@@ -21,27 +22,13 @@ multiplex:
 
 <section markdown="1">
 
-# Reveal.js + Jekyll 演示
-
-<aside class="notes">
-演讲者注记在此: 
-TODO: 把这玩意弄成 Note: 的语法
-TODO: 现在还有问题，用的是 jekyll kramdown 的markdown渲染器
-TODO: 把markdown 两个换行什么的语法搞定
-</aside>
+# How to Make Your Open Source Project Successful
 
 </section> <section markdown="1">
 
-## Maxwell Equations
+## What Is Open Source Project
 
-$$
-\begin{align}
-  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
-  \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-  \nabla \cdot \vec{\mathbf{B}} & = 0
-\end{align}
-$$
+![The truth behind Open Source projects](https://brunocapuano.files.wordpress.com/2015/12/strip-vision-open-source-650-finalenglish.jpg)
 
 </section> <section markdown="1">
 
@@ -197,7 +184,7 @@ U2F的物理层可以是USB-HID, 也可以是NFC(目前Yubikey Neo支持), 也�
 
 下面打算先讲使用, 再讲U2F的原理, 最后再讲一讲U2F-Zero的硬件及制造流程. 
 
-![图:U2F-Zero](https://camo.githubusercontent.com/8f7abb7f684061138bd2a0aefa631a6fddad0d35/68747470733a2f2f692e696d6775722e636f6d2f4865725a6857512e6a7067)
+![图:U2F-Zero](https://brunocapuano.files.wordpress.com/2015/12/strip-vision-open-source-650-finalenglish.jpg)
 
 </section> <section markdown="1">
 
