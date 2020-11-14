@@ -24,11 +24,56 @@ multiplex:
 
 # How to Make Your Open Source Project Successful
 
+
+
+<section markdown="1">
+
+## The open source projects that we know
+
+Spark/Flink/Hadoop/Hive/Hbase...
+Java/Scala/Kotlin/Rust/Python...
+Tensorflow/Pytorch/Numpy...
+Linux/Andriod/Chrome/VS Code/Intellij community...
+
+
+
 </section> <section markdown="1">
 
-## What Is Open Source Project
+### When you program open source, you're programming COMMUNISM
+
+![when you program open source communism](https://live.staticflickr.com/1078/718933691_1b96fe6dee_z.jpg)
+
+
+</section> <section markdown="1">
+
+### When you program open source, you're programming COMMUNISM
+
+<img width="500" src="https://live.staticflickr.com/1078/718933691_1b96fe6dee_z.jpg" rel="preload" as="image">
+
+
+
+</section> <section markdown="1">
+
+### What Is Open Source Project
+
+Open Source not just a public avaliable repo
+
+
+</section> <section markdown="1">
+
+### Open Source Humor
 
 ![The truth behind Open Source projects](https://brunocapuano.files.wordpress.com/2015/12/strip-vision-open-source-650-finalenglish.jpg)
+
+
+</section> <section markdown="1">
+
+### Open Source Humor
+
+
+<img width="500" src="https://brunocapuano.files.wordpress.com/2015/12/strip-vision-open-source-650-finalenglish.jpg" rel="preload" as="image">
+
+
 
 </section> <section markdown="1">
 
