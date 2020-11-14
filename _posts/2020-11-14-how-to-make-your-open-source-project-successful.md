@@ -24,6 +24,7 @@ multiplex:
 
 # How to Make Your Open Source Project Successful
 
+</section>
 
 
 <section markdown="1">
@@ -35,47 +36,35 @@ Java/Scala/Kotlin/Rust/Python...
 Tensorflow/Pytorch/Numpy...
 Linux/Andriod/Chrome/VS Code/Intellij community...
 
+</section>
 
-
-</section> <section markdown="1">
-
-### When you program open source, you're programming COMMUNISM
-
-![when you program open source communism](https://live.staticflickr.com/1078/718933691_1b96fe6dee_z.jpg)
-
-
-</section> <section markdown="1">
+<section markdown="1">
 
 ### When you program open source, you're programming COMMUNISM
 
-<img width="500" src="https://live.staticflickr.com/1078/718933691_1b96fe6dee_z.jpg" rel="preload" as="image">
+<img width="300" src="https://live.staticflickr.com/1078/718933691_1b96fe6dee_z.jpg" rel="preload" as="image">
+
+</section>
 
 
-
-</section> <section markdown="1">
+<section markdown="1">
 
 ### What Is Open Source Project
 
-Open Source not just a public avaliable repo
+Open Source not just a public avaliable repo, and 100 stars or 10000 stars does not really matter(some times matter).
 
-
-</section> <section markdown="1">
-
-### Open Source Humor
-
-![The truth behind Open Source projects](https://brunocapuano.files.wordpress.com/2015/12/strip-vision-open-source-650-finalenglish.jpg)
-
-
-</section> <section markdown="1">
+</section>
+ 
+<section markdown="1">
 
 ### Open Source Humor
 
+<img width="300" src="https://brunocapuano.files.wordpress.com/2015/12/strip-vision-open-source-650-finalenglish.jpg" rel="preload" as="image">
 
-<img width="500" src="https://brunocapuano.files.wordpress.com/2015/12/strip-vision-open-source-650-finalenglish.jpg" rel="preload" as="image">
+</section>
 
 
-
-</section> <section markdown="1">
+<section markdown="1">
 
 使用MathJax，语法为 $\LaTeX$。
 
