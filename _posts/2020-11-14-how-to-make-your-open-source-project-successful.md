@@ -47,6 +47,8 @@ multiplex:
 
 <img width="400" src="https://live.staticflickr.com/1078/718933691_1b96fe6dee_z.jpg" rel="preload" as="image">
 
+*声明：图片来自网络，不代表本人立场*
+
 </section>
 
 
@@ -56,7 +58,7 @@ multiplex:
 
 A public avaliable repository does not make a project `Open Source`.
 
-Open Source means:
+#### Open Source means:
 
 * public avaliable(of course)
 * docs about how to use/set up/build/contribute...(Not just README!)
@@ -65,7 +67,7 @@ Open Source means:
 * License & Code of conduct(Can I use that in my personal project? Do I have to make it open source?)
 * Formal release!(Is that library/tool *Production Ready*?)
 
-In short, that's all means "the community".
+**In short, that's all means "the community".**
 
 </section>
  
@@ -82,18 +84,52 @@ In short, that's all means "the community".
 - {:.fragment} Build your community
 - {:.fragment} Let people know your project.
 - {:.fragment} Hold your position!
+- {:.fragment} Let The Bullets Fly(让子弹飞一会儿)
 
 </section>
-
-
 
 
 <section markdown="1">
 
 ### How to contribute a Open Source project?
 
-to learn how to manage a open source project and how to contribute to other open source project
-TODO
+To learn how to manage a open source project and how to contribute to other open source project
+
+#### What you could do?
+
+- {:.fragment} read README/contribution guide/License & Code of conduct first.
+- {:.fragment} Before you report a bug, you need do search first(in case this is a known issue)
+- {:.fragment} Report bug
+- {:.fragment} Make pull request
+- {:.fragment} Create feature request
+- {:.fragment} Review pull request
+- {:.fragment} Participate in the issue/feature request/pr discussion
+- {:.fragment} Donating
+- {:.fragment} Write your article/tutorials/docs about this project
+- {:.fragment} Answer questions in issues/starkoverflow...
+
+</section>
+
+
+<section markdown="1">
+
+### What would happen next?
+
+- {:.fragment} your issue/pr didn't get any response.
+- {:.fragment} your issue is confirmed but there no plan to fix it.
+- {:.fragment} `Won't Fix`!
+- {:.fragment} `We won't accept your pr because...`(if your a creating a BIG feature, make sure you talked with **core maintainers/owner** first.)
+- {:.fragment} `Change request`!
+- {:.fragment} `Merged`/`Fixed` Yey!
+
+</section>
+
+
+<section markdown="1">
+
+### Solve a real problem
+
+
 
 </section>
 
@@ -102,6 +138,7 @@ TODO
 
 ### Make it easier for people to find/use it -- SEO
 
+Your project name is really importent. it should be easy to remember, gives some idea of what the project does, and does not conflict with an existing project.
 TODO
 
 </section>
@@ -158,5 +195,7 @@ TODO
 <section markdown="1">
 
 ## Thanks
+
+Make sure you are will *not accidentally* share/open-source the code of your organization.
 
 </section>
