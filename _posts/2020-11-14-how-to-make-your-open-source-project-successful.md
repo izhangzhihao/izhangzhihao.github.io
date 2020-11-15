@@ -29,7 +29,7 @@ multiplex:
 
 <section markdown="1">
 
-## The open source projects that we know
+## The open-source projects that we know
 
 * Spark/Flink/Hadoop/Hive/Hbase...
 
@@ -95,7 +95,7 @@ A public available repository does not make a project `Open Source`.
 
 ### How to contribute an Open Source project?
 
-To learn how to manage an open source project and how to contribute to other open-source project
+To learn how to manage an open-source project and how to contribute to another open-source project
 
 #### What you could do?
 
