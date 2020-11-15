@@ -186,12 +186,13 @@ To learn how to manage an open source project and how to contribute to other ope
 
 ### Hold your position
 
-</section>
 
  - {:.fragment} Are you doing Open Source as full-time job or part-time job or just for fun?
  - {:.fragment} What would you do if there a PR that conflicts with the original design of your project?
  - {:.fragment} What would you do if there a feature request would take a lot of time to implement?
  - {:.fragment} Who are your collaborators?
+
+</section>
 
 <section markdown="1">
 
