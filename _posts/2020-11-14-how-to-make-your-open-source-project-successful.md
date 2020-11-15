@@ -43,7 +43,7 @@ multiplex:
 
 <section markdown="1">
 
-### When you program open source, you're programming COMMUNISM
+### When you program open-source, you're programming COMMUNISM
 
 <img width="400" src="https://live.staticflickr.com/1078/718933691_1b96fe6dee_z.jpg" rel="preload" as="image">
 
@@ -56,11 +56,11 @@ multiplex:
 
 ### What Is Open Source Project
 
-A public avaliable repository does not make a project `Open Source`.
+A public available repository does not make a project `Open Source`.
 
 #### Open Source means:
 
-* public avaliable(of course)
+* public available(of course)
 * docs about how to use/set up/build/contribute...(Not just README!)
 * feature requests/bugs/issues discussion
 * pull request reviews
@@ -78,27 +78,29 @@ A public avaliable repository does not make a project `Open Source`.
 
 - Play well with other open source projects
 - {:.fragment} A **brilliant** idea that solving a **real problem**.
-- {:.fragment} A quality implementation. API design/(backward&forward&binary&source)compatibility/test case/performance/docs/easy to use...
+- {:.fragment} A quality implementation.
 - {:.fragment} Make a **formal release**(eg, Maven repo/gradle plugin repo/intellij plugin repo/github release)
 - {:.fragment} Not only README, but detail doc/screenshots/example code and more...
 - {:.fragment} Build your community
 - {:.fragment} Let people know your project.
 - {:.fragment} Hold your position!
+- {:.fragment} 不要使用中文
 - {:.fragment} Let The Bullets Fly(让子弹飞一会儿)
+- {:.fragment} Make your project profitable
 
 </section>
 
 
 <section markdown="1">
 
-### How to contribute a Open Source project?
+### How to contribute an Open Source project?
 
-To learn how to manage a open source project and how to contribute to other open source project
+To learn how to manage an open source project and how to contribute to other open-source project
 
 #### What you could do?
 
 - {:.fragment} read README/contribution guide/License & Code of conduct first.
-- {:.fragment} Before you report a bug, you need do search first(in case this is a known issue)
+- {:.fragment} Before you report a bug, you need your `Minimal reproducible code` and search first(in case this is a known issue)
 - {:.fragment} Report bug
 - {:.fragment} Make pull request
 - {:.fragment} Create feature request
@@ -133,13 +135,88 @@ To learn how to manage a open source project and how to contribute to other open
 
 </section>
 
+<section markdown="1">
+
+### A quality implementation
+
+- {:.fragment} API design
+- {:.fragment} test case
+- {:.fragment} performance
+- {:.fragment} docs
+- {:.fragment} interact with other libs/frameworks
+- {:.fragment} less dependencies
+- {:.fragment} light weight
+- {:.fragment} ...
+
+</section>
 
 <section markdown="1">
 
-### Make it easier for people to find/use it -- SEO
+### Make a formal release
 
-Your project name is really importent. it should be easy to remember, gives some idea of what the project does, and does not conflict with an existing project.
-TODO
+- {:.fragment} Is your lib/tools `Production Ready`?
+- {:.fragment} Where your lib hosted?
+- {:.fragment} (backward&forward&binary&source)compatibility
+
+</section>
+
+<section markdown="1">
+
+### Build your community
+
+- {:.fragment} Be responsive
+- {:.fragment} 👍
+- {:.fragment} Keep your decision transparent
+- {:.fragment} Docs(yes!)
+
+</section>
+
+
+<section markdown="1">
+
+### Let people know your project -- SEO
+
+ - {:.fragment} Your project name is really important. it should be easy to remember, gives some idea of what the project does, and does not conflict with an existing project.
+ - {:.fragment} link to other projects/names/urls/blogs/papers/libs/framworks
+ - {:.fragment} other keywords
+
+</section>
+
+<section markdown="1">
+
+### Hold your position
+
+</section>
+
+ - {:.fragment} Are you doing Open Source as full-time job or part-time job or just for fun?
+ - {:.fragment} What would you do if there a PR that conflicts with the original design of your project?
+ - {:.fragment} What would you do if there a feature request would take a lot of time to implement?
+ - {:.fragment} Who are your collaborators?
+
+<section markdown="1">
+
+### 不要使用中文
+
+</section>
+
+<section markdown="1">
+
+### Let The Bullets Fly
+
+If all goes well, there may be some tweets/blogs/official recommendations/article/tutorials talks about your project, that will make your project even more popular. 
+
+</section>
+
+<section markdown="1">
+
+### Make your project profitable
+
+ - {:.fragment} Paypal
+ - {:.fragment} Open Collective
+ - {:.fragment} Patreon
+ - {:.fragment} WeChat Pay/AliPay
+ - {:.fragment} https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/displaying-a-sponsor-button-in-your-repository
+
 
 </section>
 
@@ -148,26 +225,11 @@ TODO
 
 ### 开源项目特点
 
-社区只会锦上添花而不会雪中送炭。
+- {:.fragment} 社区只会锦上添花而不会雪中送炭。
+- {:.fragment} 绝大部分项目都默默无闻。
+- {:.fragment} 绝大部分人都是伸手党，能够正确报bug的人都很少。
 
 </section>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <section markdown="1">
@@ -177,20 +239,6 @@ TODO
 <img width="400" src="https://brunocapuano.files.wordpress.com/2015/12/strip-vision-open-source-650-finalenglish.jpg" rel="preload" as="image">
 
 </section>
-
-
-<section markdown="1">
-
- - 首先
- - {:.fragment} 先完成一个小目标
- - {:.fragment} 比如
- - {:.fragment} 开个博客
-
-</section> 
-
-
-
-
 
 <section markdown="1">
 
