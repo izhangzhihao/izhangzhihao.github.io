@@ -22,7 +22,7 @@ multiplex:
 
 <section markdown="1">
 
-# Functional Programming
+# Functional Programming In A Nutshell
 
 </section>
 
