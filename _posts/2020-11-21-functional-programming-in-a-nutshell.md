@@ -118,7 +118,7 @@ multiplex:
 
 ## Currying, Uncurrying and Compose
 
-```scala
+```
 def partial[A,B,C](a: A, f: (A, B) => C): B => C =
     (b: B) => f(a, b)
 
@@ -147,7 +147,7 @@ def compose[A,B,C](f: B => C, g: A => B): A => C =
 
 ## 函数式建模 --类型驱动的思维模式
 
-```scala
+```
 sealed trait List[+A]
 case object Nil extends List[Nothing]
 case class Cons[+A](head: A, tail: List[A]) extends List[A]
@@ -163,14 +163,14 @@ case class Cons[+A](head: A, tail: List[A]) extends List[A]
 
 ## 错误的表达方式 -- Either，Option
 
-```scala
+```
 sealed trait Option[+A]
 case class Some[+A](get: A) extends Option[A]
 case object None extends Option[Nothing]
 ```
 
 
-```scala
+```
 sealed trait Either[+E,+A]
 case class Left[+E](get: E) extends Either[E,Nothing]
 case class Right[+A](get: A) extends Either[Nothing,A]
@@ -184,7 +184,7 @@ case class Right[+A](get: A) extends Either[Nothing,A]
 
 ## 模式匹配
 
-```scala
+```
   def sum(ints: List[Int]): Int = ints match {
     case Nil => 0
     case Cons(x,xs) => x + sum(xs)
@@ -197,7 +197,7 @@ case class Right[+A](get: A) extends Either[Nothing,A]
 
 ## 使用递归而不是循环
 
-```scala
+```
 def factorial2(n: Int): Int = {
     var acc = 1
     var i = n
@@ -221,7 +221,7 @@ def factorial(n: Int): Int = {
 
 ## 严格求值和惰性求值
 
-```scala
+```
 
 ```
 
