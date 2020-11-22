@@ -28,7 +28,7 @@ multiplex:
 
 <section markdown="1">
 
-## Complexity Is your Enemy
+## Complexity Is Your Enemy
 
 > Functional programming is a programming paradigm — a style of building the structure and elements of computer programs — that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data — Wikipedia
 
@@ -153,8 +153,6 @@ case object Nil extends List[Nothing]
 case class Cons[+A](head: A, tail: List[A]) extends List[A]
 ```
 
-//（List，模式匹配，Either，Optional，Error）
-
 
 </section>
 
@@ -239,7 +237,7 @@ OOP 是对现实世界的抽象，是归纳法。这个就不展开了...
 
 而 FP 的核心应该是 Composability，是演绎法。像Minecraft、乐高这样的游戏、玩具，首先有一些基本的、可组合的模块，玩家可以自由组合，从而拥有无限可能性。函数式编程中的 Composability 更多的是抽象出的类型之间的转化：
 
-![cats image](http://plastic-idolatry.com/erik/cats2.png)
+![cats image](https://camo.githubusercontent.com/6f6a5da74ce6f3c445c2ea7257387b4beedb1171c5018f03bf864546db380484/687474703a2f2f706c61737469632d69646f6c617472792e636f6d2f6572696b2f63617473322e706e67)
 
 </section>
 
