@@ -108,7 +108,7 @@ To learn how to manage an open-source project and how to contribute to another o
 - {:.fragment} Participate in the issue/feature request/pr discussion
 - {:.fragment} Donating
 - {:.fragment} Write your article/tutorials/docs about this project
-- {:.fragment} Answer questions in issues/starkoverflow...
+- {:.fragment} Answer questions in issues/stackoverflow...
 
 </section>
 
