@@ -1,0 +1,108 @@
+<footer class="container">
+    <div class="site-footer" role="contentinfo">
+        <div class="copyright left mobile-block">
+            ©
+            <span>2016 -</span>
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name" title="{{site.author}}">{{ site.author }}</span>
+            </span>
+            <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
+                <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+                  <meta itemprop='url' content='https://avatars1.githubusercontent.com/u/12044174?s=60&v=4'/> 
+                  <meta itemprop='width' content='60'/> <!-- Logos should be no wider than 600px. -->
+                  <meta itemprop='height' content='60'/> <!-- and no taller than 60px.-->
+                </div>
+                <meta itemprop='name' content='{{site.author}}'/>
+              </div>
+            <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
+        </div>
+        <ul class="site-footer-links right mobile-hidden">
+            <li>
+                <a href="javascript:window.scrollTo(0,0)">TOP</a>
+            </li>
+        </ul>
+        <a href="{{ site.source_code }}" target="_blank" rel="noopener" aria-label="view source code">
+            <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+        </a>
+        <ul class="site-footer-links mobile-hidden">
+            {% for nav in site.navs %}
+            <li>
+                <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
+            </li>
+            {% endfor %}
+            <li>
+                <a href="{{ site.subscribe_rss }}">
+                    <span class="octicon octicon-rss" style="color:orange;"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<!-- / footer -->
+</span>
+<script src="https://cdnjs.loli.net/ajax/libs/social-share.js/1.0.16/js/social-share.min.js" rel=“preload” as="script"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/2.1.4/jquery.min.js" rel=“preload” as="script"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/geopattern/1.2.3/js/geopattern.min.js" rel=“preload” as="script"></script>
+<script src="/assets/js/prism.js?v={{site.version}}" rel=“preload” as="script"></script>
+<link rel="stylesheet" href="/assets/css/globals/prism.css?v={{site.version}}" rel=“preload” as="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/octicons/4.4.0/font/octicons.min.css" rel=“preload” as="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/social-share.js/1.0.16/css/share.min.css" rel=“preload” as="stylesheet">
+<script>
+    jQuery(document).ready(function ($) {
+        $('.geopattern').each(function () {
+            $(this).geopattern($(this).data('pattern-id'));
+        });
+        function adjust_search_box_width() {
+            if ($(".post-directory").length) {
+                if ($(".post-directory").is(":visible")) {
+                    $("#site_search").width(300);
+                }
+            }
+            var searchbar_width = $("#site_search").width();
+            $("#search_box").width(searchbar_width - 65);
+        }
+
+        adjust_search_box_width();
+
+        $(window).on("resize", function () {
+            adjust_search_box_width();
+        });
+    });
+</script> {% if site.google.analytics_id %}
+<div style="display:none">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', '{{ site.google.analytics_id }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+</div>
+{% endif %}
+{% if site.baidu.analytics_id %}
+<div style="display:none">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu.analytics_id }}";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+{% endif %}
+</body>
+
+</html>

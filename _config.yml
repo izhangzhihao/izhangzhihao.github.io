@@ -1,0 +1,111 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://izhangzhihao.github.io/
+date_format: "ordinal"
+title: Zhihao's Blog
+subtitle: "Make the impossible possible, the possible easy and the easy elegant"
+description: "Zhihao's Blog"
+favicon: /favicon.ico
+timezone: America/Los_Angeles"
+encoding: "utf-8"
+source_code: https://github.com/izhangzhihao/izhangzhihao.github.io
+side_bar_repo_limit: 5
+
+version : 1
+
+webrick:
+  headers:
+    Cache-Control: public, max-age=31536000
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: Zhihao Zhang
+# organization: 
+# organization_url: 
+location: Seattle
+# email: 
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: Index
+
+  -
+    href: /categories/
+    label: Category
+
+  -
+    href: /open-source/
+    label: Open Source Projects
+
+  -
+    href: /about/
+    label: About Me
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+highlighter: rouge
+paginate: 9
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+    - jekyll-gist
+    # - jekyll-mentions that will breack https://search.google.com/structured-data/testing-tool
+    - jekyll-seo-tag
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_username: izhangzhihao
+twitter_username: izhangzhihao
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, changyan
+comments_provider: disqus
+# !!!重要!!! 请修改下面用户名为你自己申请的
+disqus_username: izhangzhihao-github-io
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-82434482-1
+
+baidu:
+    analytics_id: 6148579727c35b751c976cb7e2694ed5
+
+# ---------------- #
+#      Dats       #
+# ---------------- #
+skill_language_keywords: [Java, Scala, Kotlin, Python]
+skill_web_app_keywords: [TensorFlow, DeepLearning, Docker, Rancher, Ansible, javaEE, Spring, Spring Boot, JPA, Hibernate, MyBatis, Shiro, Redis, Spring Data, MySql]

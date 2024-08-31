@@ -1,0 +1,19 @@
+<h3>Search</h3>
+<div id="site_search">
+    <input type="text" id="search_box" placeholder="请输入...">
+</div>
+
+<ul id="search_results" style="font-size:14px;list-style-type:none;padding-top:10px;padding-left:10px;"></ul>
+<script src="https://cdnjs.loli.net/ajax/libs/simple-jekyll-search/1119c1a/jekyll-search.min.js" rel=“preload” as="script"></script>
+<script type="text/javascript">
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search_box'),
+        resultsContainer: document.getElementById('search_results'),
+        json: '{{ site.url }}/assets/search_data.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+    })
+</script>
