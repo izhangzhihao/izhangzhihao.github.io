@@ -19,12 +19,11 @@ permalink: /rainbow-brackets-document/
 <a href="https://plugins.jetbrains.com/embeddable/install/10080"><img src="https://img.shields.io/jetbrains/plugin/d/10080-rainbow-brackets.svg?style=flat-square"></a>
 <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets"><img src="https://img.shields.io/jetbrains/plugin/v/10080-rainbow-brackets.svg?style=flat-square&label=IntelliJ-based%20IDE"></a>
 <a href="https://plugins.jetbrains.com/plugin/23759-rainbow-brackets-for-fleet"><img src="https://img.shields.io/jetbrains/plugin/v/23759?style=flat-square&label=Fleet"></a>
-
 </p>
 
-<br>
 
 # Table of contents
+
 
 - [Change log](https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2022.3/CHANGELOG.md#change-log)
 - [Core Features](#core-features)
@@ -36,32 +35,39 @@ permalink: /rainbow-brackets-document/
 - [Fleet Support](https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2022.3/Fleet.md)
 - [Rainbow Brackets Lite](#rainbow-brackets-lite)
 
+
 ## Core features
 
+
 <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#java">Rainbowify various types brackets(Round,Squiggly,Square,Angle)</a></li>
-        <li><a href="https://www.youtube.com/watch?v=8WRH59PQ5Dk">Rainbowify variables for more languages & config colors using color generator </a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#indent-highlighting">Rainbowify indent guidelines</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#scope-highlighting">Scope highlighting</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#htmlxml">Rainbowify tag name for XML/HTML</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#yaml">Rainbowify property name for YAML/JSON</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#customize-colors">Customize colors</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#use-the-color-generator">Color generator</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#javascript--typescript">JSX support</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#python">Rainbowify Python keywords & indent guidelines</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2643">Scope highlighting for Python</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2644">Current Block Highlighting</a></li>
-        <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#disable-rainbow-brackets-for-specific-languages">Block list support</a></li>
-        <br/>
+<li><a href="https://www.youtube.com/watch?v=8WRH59PQ5Dk">Rainbowify variables for more languages & config colors using color generator </a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#indent-highlighting">Rainbowify indent guidelines</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#scope-highlighting">Scope highlighting</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#htmlxml">Rainbowify tag name for XML/HTML</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#yaml">Rainbowify property name for YAML/JSON</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#customize-colors">Customize colors</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#use-the-color-generator">Color generator</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#javascript--typescript">JSX support</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#python">Rainbowify Python keywords & indent guidelines</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2643">Scope highlighting for Python</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2644">Current Block Highlighting</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#disable-rainbow-brackets-for-specific-languages">Block list support</a></li>
+<br/>
+
 
 ## Compatibility
 
+
 IntelliJ IDEA(Ultimate/Community/Educational), PhpStorm, WebStorm, PyCharm(Professional/Community/Educational), RubyMine, AppCode, CLion, CLion(Nova), Gogland, DataGrip, Rider, MPS, Android Studio, HUAWEI DevEco Studio, DataSpell, Code With Me(Host), RustRover, Aqua, Fleet, WriterSide
 
+
 ## Supported languages
+
 
 Java, Scala, Clojure, Kotlin, Python, Haskell, Agda, Rust, JavaScript, TypeScript, Erlang, Go, Groovy, Ruby, Elixir, Objective-C, PHP, HTML, XML, SQL, Apex language, C#, F#, Dart, Pug/Jade, Bash, Vue.js, C# Razor Pages, GLSL(the OpenGL Shading Language), Go Template, C++, C, Solidity, Jinja2, Clang, CPP, C, MDX, FreeMarker...
 
 **NOTE: Please note that some features require the paid version for full support.**
+
 
 ## Install
 
@@ -69,7 +75,9 @@ Java, Scala, Clojure, Kotlin, Python, Haskell, Agda, Rust, JavaScript, TypeScrip
     <img src="https://user-images.githubusercontent.com/12044174/123105697-94066100-d46a-11eb-9832-338cdf4e0612.png" width="300"/>
 </a>
 
+
 ### Install it inside your IDE:
+
 
 For Windows & Linux - <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Rainbow Brackets"</kbd> > <kbd>Install Plugin</kbd> > <kbd>Restart IntelliJ IDEA</kbd>
 
@@ -77,29 +85,37 @@ For Mac - <kbd>IntelliJ IDEA</kbd> > <kbd>Preferences</kbd> > <kbd>Plugins</kbd>
 
 ## Screenshots
 
+
 ### Java
+
 
 <img width="640" alt="java" src="https://user-images.githubusercontent.com/12044174/218252098-d73f3be1-849f-4193-a095-105b639d1955.png">
 
 
 ### Scala
 
+
 <img width="640" alt="scala" src="https://user-images.githubusercontent.com/12044174/218252110-409c8dc0-3893-42c0-97f8-5855f88728bf.png">
 
 
 ### Clojure
 
+
 <img width="640" alt="Clojure" src="https://user-images.githubusercontent.com/12044174/218252123-b2c2ae55-0501-46d5-81c0-4208f19958b3.png">
+
 
 ### Kotlin
 
+
 <img width="640" alt="kotlin" src="https://user-images.githubusercontent.com/12044174/218252132-f6b0d17a-9d3b-47bc-be0c-918531ffb050.png">
+
 
 ### HTML/XML
 
 **NOTE: need to turn on the 'Rainbowify tag name' option**
 
 <img width="640" alt="HTML" src="https://user-images.githubusercontent.com/12044174/218252140-926fb1cc-5836-4e9e-9a23-5d0a4d956c3c.png">
+
 
 ### Javascript & Typescript
 
@@ -108,13 +124,16 @@ For Mac - <kbd>IntelliJ IDEA</kbd> > <kbd>Preferences</kbd> > <kbd>Plugins</kbd>
 <img width="640" alt="js" src="https://user-images.githubusercontent.com/12044174/218252159-06337dbb-ee7a-47a6-92f7-64e29f7419da.png">
 <img width="640" alt="ts" src="https://user-images.githubusercontent.com/12044174/218252164-1a0547a6-a423-4a07-aa80-5200a5660aa6.png">
 
+
 ### C#
 
 <img width="640" alt="CSharp" src="https://user-images.githubusercontent.com/12044174/218252203-24057a01-79ba-44e5-834d-ac4414472583.png">
 
+
 ### Dart
 
 <img width="640" alt="dart" src="https://user-images.githubusercontent.com/12044174/218252217-e526703d-d644-4e51-bb17-1273f3591dc4.png">
+
 
 ### Python
 
@@ -126,6 +145,7 @@ For Mac - <kbd>IntelliJ IDEA</kbd> > <kbd>Preferences</kbd> > <kbd>Plugins</kbd>
 
 
 ### Pug/Jade
+
 
 <img width="640" alt="pug" src="https://user-images.githubusercontent.com/12044174/218252187-1d581616-1b4a-4654-8d97-5fe9e9a505cf.png">
 
