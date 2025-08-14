@@ -12,7 +12,7 @@ permalink: /rainbow-brackets-document/
     </a>
 </div>
 <h1 align="center">Intellij Rainbow Brackets</h1>
-<p align="center">🌈Rainbow Brackets for IntelliJ-based IDEs/Android Studio/HUAWEI DevEco Studio And <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2022.3/Fleet.md">Fleet</p>
+<p align="center">🌈Rainbow Brackets for IntelliJ-based IDEs/Android Studio/HUAWEI DevEco Studio And <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2022.3/Fleet.md">Fleet</a></p>
 
 <p align="center">
 <a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets"><img src="https://img.shields.io/jetbrains/plugin/r/stars/10080?style=flat-square"></a>
